@@ -1,0 +1,26 @@
+[
+  {
+    "update": 0,
+    "parent_update": null,
+    "original_checkpoint_sha256": "3bda7b2abc1d5930d96c91dba8026391e8cf79a08fbe22565ac3370203116dd8",
+    "training_state_saved": true,
+    "sampler_saved": true,
+    "save_status": "confirmed",
+    "original_save_receipt_sha256": "20cb263fd2103aeb1690add68cb87a00060e1f2f7c62411ab9bc1ec3793e87a0",
+    "original_optimizer_receipt_sha256": null,
+    "lineage_verification": "passed",
+    "training_release": "0.5.8"
+  },
+  {
+    "update": 1,
+    "parent_update": 0,
+    "original_checkpoint_sha256": "ba28d7451986f70b0879b3fe5a89e84e15524ada85800397e9cd02db930cbe8c",
+    "training_state_saved": true,
+    "sampler_saved": true,
+    "save_status": "confirmed",
+    "original_save_receipt_sha256": "49ff945a78fd543b0faf622f901783ae8932e532f5e420612c689a13c93a8b87",
+    "original_optimizer_receipt_sha256": "bebc8f7b14b96ce7db68f518bf9d2c7457fc46ceeac91e2a429564e80c767f14",
+    "lineage_verification": "passed",
+    "training_release": "0.5.8"
+  }
+]

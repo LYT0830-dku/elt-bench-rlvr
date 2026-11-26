@@ -1,0 +1,23 @@
+{
+  "execution_backend": "native",
+  "destination": "snowflake",
+  "postgres_bin": "/usr/lib/postgresql/16/bin",
+  "dbt_executable": "/absolute/project/venv-dbt/bin/dbt",
+  "snowflake": {
+    "account": "REPLACE",
+    "user": "ELT_RL_RUNNER",
+    "authenticator": "SNOWFLAKE_JWT",
+    "database": "ELT_RL_DB",
+    "warehouse": "ELT_RL_WH",
+    "private_key_file": "/absolute/project/private/runner.p8"
+  },
+  "snowflake_admin": {
+    "account": "REPLACE",
+    "user": "ELT_RL_RESOURCE_MANAGER",
+    "role": "ELT_RL_RESOURCE_MANAGER",
+    "authenticator": "SNOWFLAKE_JWT",
+    "database": "ELT_RL_DB",
+    "warehouse": "ELT_RL_WH",
+    "private_key_file": "/absolute/project/private/manager.p8"
+  }
+}

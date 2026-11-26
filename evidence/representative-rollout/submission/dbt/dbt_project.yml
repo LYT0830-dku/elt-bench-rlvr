@@ -1,0 +1,8 @@
+name: cars
+version: 1.0.0
+profile: elt
+model-paths: ["models"]
+models:
+  cars:
+    countries:
+      +materialized: table

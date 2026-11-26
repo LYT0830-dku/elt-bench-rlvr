@@ -1,0 +1,9 @@
+episode_id,cohort,reward,previous_srdt,official_srdt,official_srdel,end_to_end_success,correct_target_models,required_target_models,target_success,known_policy_zero,original_episode_sha256,advantage,correct_cells,required_cells
+train-batch-0001-000,train-batch-0001,0.0,False,0.0,False,False,0,2,"{""positions"": false, ""locations"": false}",True,a69554dc6e501040a4b70a3ae85b1d0b1e49251d67178ead73ca298178ae7793,-0.4179687201976776,0,96
+train-batch-0001-001,train-batch-0001,0.0,False,0.0,False,False,0,2,"{""positions"": false, ""locations"": false}",False,0b24654a49dbc071194d0342208ba4c2135325f53ba17e8a328f90c90fbf8ec9,-0.4179687201976776,0,96
+train-batch-0001-002,train-batch-0001,0.0,False,0.0,False,False,0,2,"{""positions"": false, ""locations"": false}",True,257ad302c66ebda24e8d6328142d3a542e02a0d3168de339b8c76fdb784b1e8d,-0.4179687201976776,0,96
+train-batch-0001-003,train-batch-0001,0.8958333333333334,False,0.0,True,False,0,2,"{""positions"": false, ""locations"": false}",False,747fa5bf680c27f5a622b7726ba5b586d93e748114aed1873fe6de51c352418d,0.4778645932674408,86,96
+train-batch-0001-004,train-batch-0001,0.9270833333333334,False,0.5,True,False,1,2,"{""positions"": true, ""locations"": false}",False,8696fa5b3e2d06c418242ed1660270776f58fa81af4bb4ed952942915e2f0a7e,0.5091146230697632,89,96
+train-batch-0001-005,train-batch-0001,0.0,False,0.0,False,False,0,2,"{""positions"": false, ""locations"": false}",True,eb7b9bac3591c4c33b4c4b35433c4ea9e41aaa454186f8c93ef6d973f0effec1,-0.4179687201976776,0,96
+train-batch-0001-006,train-batch-0001,0.59375,False,0.0,True,False,0,2,"{""positions"": false, ""locations"": false}",False,f45c97699a2f50675497801adb8782a429edc47b4483e7ae5b678d8e816291c9,0.1757812798023224,57,96
+train-batch-0001-007,train-batch-0001,0.9270833333333334,False,0.5,True,False,1,2,"{""positions"": true, ""locations"": false}",False,834e13a7ff5b32341188af42f31f02fe28628ef831a240a473820efa4b57ab1b,0.5091146230697632,89,96

@@ -1,0 +1,51 @@
+{
+  "episode_id": "train-batch-0001-002",
+  "task": "cars",
+  "model": "thinkingmachines/Inkling-2-Mini",
+  "done": true,
+  "termination": "submitted",
+  "report": {
+    "official_score": 0.42857142857142855,
+    "official_success": false,
+    "official_srdel": true,
+    "official_srdt": 0.0,
+    "training_reward": 0.5714285714285714,
+    "reward_version": "pure_cell_accuracy_v1",
+    "reward_type": "pure_cell",
+    "cell_accuracy": 0.5714285714285714,
+    "correct_cells": 12,
+    "required_cells": 21,
+    "matched_target_columns": 3,
+    "required_target_columns": 7,
+    "pipeline_valid": true,
+    "execution_success": true,
+    "success": false,
+    "failure_type": "task_incomplete",
+    "training_eligible": true,
+    "benchmark_revision": "e2e377766604f61930165f20d4fcab8400a3e997",
+    "targets": {
+      "countries": {
+        "matched": [
+          "ORIGIN",
+          "COUNTRY",
+          "MOST_FUEL_EFFICIENT_CAR"
+        ],
+        "unmatched": [
+          "FASTEST_CAR",
+          "NUM_CARS",
+          "NUM_CAR_WORTH_OVER_35000_AND_ACCELERATION_14",
+          "AVG_CAR_PRICE"
+        ],
+        "missed": []
+      }
+    },
+    "stage1_log": "Success: cars schema and tables verified. Success tables: ['country', 'data', 'price', 'production']\n",
+    "stage2_log": "Database: cars\nTable: countries\nMatched columns: ['ORIGIN', 'COUNTRY', 'MOST_FUEL_EFFICIENT_CAR']\nUnmatched columns: ['FASTEST_CAR', 'NUM_CARS', 'NUM_CAR_WORTH_OVER_35000_AND_ACCELERATION_14', 'AVG_CAR_PRICE']\nMissed: []\n\n\n",
+    "correct_target_models": 0,
+    "required_target_models": 1
+  },
+  "original_episode_sha256": "db30375929a76dfc8593c9fca827c22a6cad515f8a7556d95480e8f868f041eb",
+  "prediction_sha256": "6e8f28655bf1e64040e52e8e20df2829f2713813319f44d9e5ac4402325e92bc",
+  "submission_files": "submission/pipeline.json",
+  "note": "Filtered execution evidence. The model-authored loading/dbt files and actual generated table are included; full raw observations and original credentials are private."
+}

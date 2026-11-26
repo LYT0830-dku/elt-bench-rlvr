@@ -1,0 +1,65 @@
+{
+  "format": "native_loading_v1",
+  "destination": {
+    "database": "assigned",
+    "schema": "airbyte_schema"
+  },
+  "connections": [
+    {
+      "name": "data",
+      "source": "data",
+      "connector": "http",
+      "format": "json",
+      "table": "data",
+      "columns": {
+        "id": "BIGINT",
+        "mpg": "DOUBLE",
+        "cylinders": "BIGINT",
+        "displacement": "DOUBLE",
+        "horsepower": "DOUBLE",
+        "weight": "DOUBLE",
+        "acceleration": "DOUBLE",
+        "model": "BIGINT",
+        "car_name": "VARCHAR"
+      },
+      "sync_mode": "full_refresh_append"
+    },
+    {
+      "name": "price",
+      "source": "price",
+      "connector": "postgres",
+      "format": "table",
+      "table": "price",
+      "columns": {
+        "id": "BIGINT",
+        "price": "DOUBLE"
+      },
+      "sync_mode": "full_refresh_append"
+    },
+    {
+      "name": "country",
+      "source": "country",
+      "connector": "s3",
+      "format": "jsonl",
+      "table": "country",
+      "columns": {
+        "origin": "VARCHAR",
+        "country": "VARCHAR"
+      },
+      "sync_mode": "full_refresh_append"
+    },
+    {
+      "name": "production",
+      "source": "production",
+      "connector": "https",
+      "format": "csv",
+      "table": "production",
+      "columns": {
+        "id": "BIGINT",
+        "model_year": "BIGINT",
+        "country": "VARCHAR"
+      },
+      "sync_mode": "full_refresh_append"
+    }
+  ]
+}

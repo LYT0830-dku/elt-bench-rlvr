@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "task": "cars",
+  "selected_rollouts": 218,
+  "changed_rollouts": 0,
+  "changes": [],
+  "reward_changed": false,
+  "original_records_modified": false,
+  "method": "Offline aggregation of unmodified pinned official per-target column logs; all declared target models remain in the denominator",
+  "source_protocol_sha256": "06bb6f559e62be507405ca4a7363b02bf47ea89e16545bab7c18954c6c74f526"
+}

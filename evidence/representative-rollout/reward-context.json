@@ -1,0 +1,156 @@
+{
+  "format": "elt_saved_reward_contexts_v1",
+  "task_id": "cars",
+  "targets": [
+    {
+      "name": "countries",
+      "fields": [
+        {
+          "name": "origin",
+          "kind": "integer",
+          "role": "identifier",
+          "nullable": false,
+          "minimum": "1",
+          "maximum": null,
+          "comparator": "exact",
+          "cell_rtol": 0.01,
+          "cell_atol": 0.0,
+          "numeric": null
+        },
+        {
+          "name": "country",
+          "kind": "string",
+          "role": "categorical",
+          "nullable": false,
+          "minimum": null,
+          "maximum": null,
+          "comparator": "exact",
+          "cell_rtol": 0.01,
+          "cell_atol": 0.0,
+          "numeric": null
+        },
+        {
+          "name": "fastest_car",
+          "kind": "string",
+          "role": "business",
+          "nullable": false,
+          "minimum": null,
+          "maximum": null,
+          "comparator": "exact",
+          "cell_rtol": 0.01,
+          "cell_atol": 0.0,
+          "numeric": null
+        },
+        {
+          "name": "most_fuel_efficient_car",
+          "kind": "string",
+          "role": "business",
+          "nullable": false,
+          "minimum": null,
+          "maximum": null,
+          "comparator": "exact",
+          "cell_rtol": 0.01,
+          "cell_atol": 0.0,
+          "numeric": null
+        },
+        {
+          "name": "num_cars",
+          "kind": "integer",
+          "role": "business",
+          "nullable": false,
+          "minimum": "0",
+          "maximum": null,
+          "comparator": "official_elt_relative_v1",
+          "cell_rtol": 0.01,
+          "cell_atol": 0.0,
+          "numeric": null
+        },
+        {
+          "name": "num_car_worth_over_35000_and_acceleration_14",
+          "kind": "integer",
+          "role": "business",
+          "nullable": false,
+          "minimum": "0",
+          "maximum": null,
+          "comparator": "official_elt_relative_v1",
+          "cell_rtol": 0.01,
+          "cell_atol": 0.0,
+          "numeric": null
+        },
+        {
+          "name": "avg_car_price",
+          "kind": "decimal",
+          "role": "business",
+          "nullable": true,
+          "minimum": "0",
+          "maximum": null,
+          "comparator": "official_elt_relative_v1",
+          "cell_rtol": 0.01,
+          "cell_atol": 0.0,
+          "numeric": null
+        }
+      ],
+      "keys": [
+        "origin"
+      ]
+    }
+  ],
+  "configuration": {
+    "type": "pure_cell",
+    "version": "pure_cell_accuracy_v1"
+  },
+  "episodes": [
+    {
+      "episode": "train-batch-0001-002",
+      "reward": 0.5714285714285714,
+      "predictions": {
+        "countries": {
+          "columns": [
+            "ORIGIN",
+            "COUNTRY",
+            "FASTEST_CAR",
+            "MOST_FUEL_EFFICIENT_CAR",
+            "NUM_CARS",
+            "NUM_CAR_WORTH_OVER_35000_AND_ACCELERATION_14",
+            "AVG_CAR_PRICE"
+          ],
+          "rows": [
+            [
+              "1",
+              "USA",
+              "plymouth 'cuda 340",
+              "plymouth champ",
+              "249",
+              "0",
+              "29331.362299294837"
+            ],
+            [
+              "2",
+              "Europe",
+              "volkswagen rabbit",
+              "vw rabbit c (diesel)",
+              "70",
+              "2",
+              "30250.665994698662"
+            ],
+            [
+              "3",
+              "Japan",
+              "datsun 280-zx",
+              "mazda glc",
+              "79",
+              "0",
+              "30295.754443977454"
+            ]
+          ]
+        }
+      },
+      "official_columns": {},
+      "stage1_passed": true,
+      "submission_valid": true,
+      "source_episode_sha256": "db30375929a76dfc8593c9fca827c22a6cad515f8a7556d95480e8f868f041eb"
+    }
+  ],
+  "references_external": true,
+  "reference_note": "Obtain original references through the pinned task preparation. Run verify_saved_rewards.py with --reference-task-spec. Official ground truth is not redistributed."
+}

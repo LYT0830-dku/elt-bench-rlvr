@@ -1,0 +1,232 @@
+[
+  {
+    "cohort": "train-batch-0001",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0002",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0003",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0004",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0005",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0006",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0007",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0008",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0009",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0010",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0011",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0012",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0013",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0014",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0015",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "train-batch-0016",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 8
+  },
+  {
+    "cohort": "eval-batch-0000",
+    "n": 10,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 10
+  },
+  {
+    "cohort": "eval-batch-0004",
+    "n": 10,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 10
+  },
+  {
+    "cohort": "eval-batch-0008",
+    "n": 10,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 0.9,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 10
+  },
+  {
+    "cohort": "eval-batch-0012",
+    "n": 10,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 10
+  },
+  {
+    "cohort": "eval-batch-0016",
+    "n": 10,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 10
+  },
+  {
+    "cohort": "final-base",
+    "n": 20,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 20
+  },
+  {
+    "cohort": "final-final",
+    "n": 20,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.0,
+    "official_srdel": 1.0,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 0,
+    "required_target_models": 20
+  }
+]

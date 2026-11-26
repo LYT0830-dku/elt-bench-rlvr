@@ -1,0 +1,101 @@
+{
+  "cars": {
+    "archives": {
+      "1-Gv5g_Yg_YrR-NxH4s2tSEK3VhJQc2Q0": {
+        "data/cars/data.csv": "sources/data.csv",
+        "data/address/alias.csv": "healthcheck/alias.csv"
+      },
+      "11vQqNEWXoPG6sjKytAn7TtFLDMiQa17I": {
+        "data/cars/price.csv": "sources/price.csv",
+        "data/cars/country.jsonl": "sources/country.jsonl",
+        "data/cars/production.csv": "sources/production.csv"
+      },
+      "1qVAzU3kgn_G72QQ4b5zt3e1hwkQcSgDq": {
+        "gt/cars/countries.csv": "references/countries.csv"
+      }
+    }
+  },
+  "human_resources": {
+    "archives": {
+      "11vQqNEWXoPG6sjKytAn7TtFLDMiQa17I": {
+        "data/human_resources/employee.csv": "sources/employee.csv",
+        "data/human_resources/position.csv": "sources/position.csv",
+        "data/human_resources/location.csv": "sources/location.csv"
+      },
+      "1qVAzU3kgn_G72QQ4b5zt3e1hwkQcSgDq": {
+        "gt/human_resources/positions.csv": "references/positions.csv",
+        "gt/human_resources/locations.csv": "references/locations.csv"
+      }
+    },
+    "sources": [
+      {
+        "name": "employee",
+        "kind": "postgres",
+        "options": {
+          "path": "sources/employee.csv",
+          "format": "csv",
+          "initial_types": {
+            "ssn": "TEXT",
+            "lastname": "TEXT",
+            "firstname": "TEXT",
+            "hiredate": "DATE",
+            "salary": "TEXT",
+            "gender": "TEXT",
+            "performance": "TEXT",
+            "positionid": "INTEGER",
+            "locationid": "INTEGER"
+          },
+          "initial_primary_keys": [
+            "ssn"
+          ],
+          "initial_date_format": "%m/%d/%y"
+        }
+      },
+      {
+        "name": "position",
+        "kind": "s3",
+        "options": {
+          "path": "sources/position.csv",
+          "format": "csv",
+          "key": "position.csv"
+        }
+      },
+      {
+        "name": "location",
+        "kind": "csv_http",
+        "options": {
+          "path": "sources/location.csv",
+          "format": "csv",
+          "url_path": "/human_resources/location.csv"
+        }
+      }
+    ],
+    "targets": {
+      "positions": {
+        "keys": [
+          "position_id"
+        ],
+        "numeric": [
+          "position_id",
+          "num_poor_performing_employees",
+          "num_female_employees",
+          "per_salary_over_20000",
+          "avg_salary",
+          "has_maximum_salary_no_more_than_70000"
+        ]
+      },
+      "locations": {
+        "keys": [
+          "location_id"
+        ],
+        "numeric": [
+          "location_id",
+          "num_employees",
+          "num_of_trainee",
+          "num_account_representatives_with_average_performance",
+          "num_employees_have_good_perfomance"
+        ]
+      }
+    }
+  }
+}

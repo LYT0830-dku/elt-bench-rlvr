@@ -1,0 +1,69 @@
+{
+  "training_release": "0.5.2",
+  "config": {
+    "task": "data/tasks/cars-native/task.yaml",
+    "output": "runs/cars-recorded",
+    "model": "thinkingmachines/Inkling-2-Mini",
+    "renderer": "tml_v0",
+    "renderer_effort": 0.0,
+    "action_protocol": "native_tools_v1",
+    "destination": "snowflake",
+    "batches": 16,
+    "group_size": 8,
+    "max_turns": 200,
+    "max_tokens": 49152,
+    "context_tokens": 64000,
+    "learning_rate": 1e-05,
+    "rank": 16,
+    "temperature": 0.8,
+    "top_p": 1.0,
+    "top_k": -1,
+    "seed": 0,
+    "max_episode_tokens": 262144,
+    "max_sampling_tokens": 1280000000,
+    "max_training_tokens": 20000000,
+    "max_seconds": null,
+    "sampling_timeout_seconds": 180,
+    "eval_episodes": 10,
+    "resume_checkpoint": null,
+    "allow_remote": true,
+    "optimization_timeout_seconds": 900,
+    "checkpoint_timeout_seconds": 900,
+    "concurrency": 8,
+    "max_evaluation_attempts": 1,
+    "deadline_utc": null,
+    "schedule": "batches_v1",
+    "evaluation_interval": 4,
+    "final_eval_episodes": 20,
+    "final_seed": 200000000,
+    "run_id": "exp2-cars-cell-20261126",
+    "task_spec_path": "examples/tasks/cars.yaml",
+    "task_groups": [
+      {
+        "task_id": "cars",
+        "specification": "examples/tasks/cars.yaml"
+      }
+    ],
+    "evaluation_task": "cars",
+    "reward": {
+      "type": "pure_cell",
+      "version": "pure_cell_accuracy_v1"
+    },
+    "evaluation_temperature": 0.8,
+    "evaluation_limits": {},
+    "authorization": {
+      "models": [
+        "thinkingmachines/Inkling-2-Mini"
+      ],
+      "tasks": [
+        "cars"
+      ],
+      "max_batches": 16,
+      "max_concurrency": 8,
+      "fresh_base_only": true
+    }
+  },
+  "original_config_paths_remapped": true,
+  "note": "Recorded settings, not planned settings. Paths are portable aliases; original configuration remains private. Disabled evaluation counts are configuration values, not executed evaluations.",
+  "original_protocol_sha256": "06bb6f559e62be507405ca4a7363b02bf47ea89e16545bab7c18954c6c74f526"
+}

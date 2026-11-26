@@ -1,0 +1,22 @@
+{
+  "training_reward": 1.0,
+  "reward_version": "pure_cell_accuracy_v1",
+  "reward_type": "pure_cell",
+  "cell_accuracy": 1.0,
+  "correct_cells": 16,
+  "required_cells": 16,
+  "pipeline_valid": true,
+  "execution_success": true,
+  "success": true,
+  "release": "0.6.1",
+  "mode": "credential-free engineering fixture",
+  "official_benchmark_result": false,
+  "tools": [
+    "dbt",
+    "loading",
+    "submit",
+    "sync",
+    "wait_sync",
+    "write_file"
+  ]
+}

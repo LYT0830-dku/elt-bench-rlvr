@@ -1,0 +1,52 @@
+{
+  "format": "elt_model_catalog_v1",
+  "default_model": "thinkingmachines/Inkling-2-Mini",
+  "models": [
+    {
+      "id": "thinkingmachines/Inkling-2-Mini",
+      "family": "inkling",
+      "renderers": [
+        "tml_v0"
+      ],
+      "tool_codec": "tml_native",
+      "effort_conditioning": true,
+      "sampling": true,
+      "tool_calling": true,
+      "logprobs": true,
+      "lora_training": true,
+      "context_limit": 64000,
+      "verification": "Recorded experiment evidence determines actual validation status"
+    },
+    {
+      "id": "Qwen/Qwen3-8B",
+      "family": "qwen",
+      "renderers": [
+        "qwen3",
+        "qwen3_disable_thinking"
+      ],
+      "tool_codec": "cookbook_native",
+      "effort_conditioning": false,
+      "sampling": true,
+      "tool_calling": true,
+      "logprobs": true,
+      "lora_training": true,
+      "context_limit": 32768,
+      "verification": "Recorded experiment evidence determines actual validation status"
+    },
+    {
+      "id": "Qwen/Qwen3.6-35B-A3B",
+      "family": "qwen",
+      "renderers": [
+        "qwen3_5_strings"
+      ],
+      "tool_codec": "cookbook_native",
+      "effort_conditioning": false,
+      "sampling": true,
+      "tool_calling": true,
+      "logprobs": true,
+      "lora_training": true,
+      "context_limit": 65536,
+      "verification": "Provider sampling/training capability checked; recorded experiment evidence determines actual validation status"
+    }
+  ]
+}

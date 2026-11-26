@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: airbyte_schema
+    schema: "{{ var('destination_schema') }}"
+    tables:
+      - name: data
+      - name: price
+      - name: country
+      - name: production

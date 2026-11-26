@@ -1,0 +1,71 @@
+{
+  "task": "human_resources",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "training_release": "0.5.8",
+  "attempted_batches": 1,
+  "completed_batches": 1,
+  "effective_updates": 1,
+  "training_rollouts": 8,
+  "process_evaluation_rollouts": 0,
+  "final_evaluation_rollouts": 0,
+  "evaluation_enabled": false,
+  "final_evaluations": {},
+  "corrected_official_cohorts": [
+    {
+      "cohort": "train-batch-0001",
+      "n": 8,
+      "previous_srdt": 0.0,
+      "official_srdt": 0.125,
+      "official_srdel": 0.5,
+      "end_to_end_success_rate": 0.0,
+      "correct_target_models": 2,
+      "required_target_models": 16
+    }
+  ],
+  "elapsed_seconds": 1271.7872993946075,
+  "final_checkpoint_update": 1,
+  "final_selection": "last_effective_update",
+  "cloud_checkpoint_uris": "Private archive only; this export is metadata, not binary weights",
+  "costs": "Not measured; expense accounting was disabled. No new model experiment was executed for release preparation.",
+  "first_update_audit": {
+    "status": "passed",
+    "rewards": [
+      0.0,
+      0.0,
+      0.0,
+      0.8958333333333334,
+      0.9270833333333334,
+      0.0,
+      0.59375,
+      0.9270833333333334
+    ],
+    "advantages": [
+      -0.4179687201976776,
+      -0.4179687201976776,
+      -0.4179687201976776,
+      0.4778645932674408,
+      0.5091146230697632,
+      -0.4179687201976776,
+      0.1757812798023224,
+      0.5091146230697632
+    ],
+    "training_input_tokens": 258426,
+    "nonzero_advantage_tokens": 97955,
+    "gradient_norm": 2977.919189453125,
+    "warehouse_rescored_episode_ids": [
+      "train-batch-0001-001",
+      "train-batch-0001-003",
+      "train-batch-0001-004",
+      "train-batch-0001-006",
+      "train-batch-0001-007"
+    ],
+    "known_policy_zero_episode_ids": [
+      "train-batch-0001-000",
+      "train-batch-0001-002",
+      "train-batch-0001-005"
+    ]
+  },
+  "checkpoint_only_recovery": true,
+  "optimizer_replayed": false,
+  "scope": "One optimization batch only, with no independent evaluation or improvement claim"
+}

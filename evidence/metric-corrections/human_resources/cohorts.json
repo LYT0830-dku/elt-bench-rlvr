@@ -1,0 +1,12 @@
+[
+  {
+    "cohort": "train-batch-0001",
+    "n": 8,
+    "previous_srdt": 0.0,
+    "official_srdt": 0.125,
+    "official_srdel": 0.5,
+    "end_to_end_success_rate": 0.0,
+    "correct_target_models": 2,
+    "required_target_models": 16
+  }
+]

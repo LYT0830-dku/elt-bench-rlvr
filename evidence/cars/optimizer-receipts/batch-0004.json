@@ -1,0 +1,67 @@
+{
+  "batch": 4,
+  "status": "effective_update_confirmed",
+  "updates": 4,
+  "updates_before": 3,
+  "rewards": [
+    0.5714285714285714,
+    0.5238095238095238,
+    0.5238095238095238,
+    0.5238095238095238,
+    0.5238095238095238,
+    0.5238095238095238,
+    0.6666666666666666,
+    0.5238095238095238
+  ],
+  "advantages": [
+    0.023809492588043213,
+    -0.02380955219268799,
+    -0.02380955219268799,
+    -0.02380955219268799,
+    -0.02380955219268799,
+    -0.02380955219268799,
+    0.11904758214950562,
+    -0.02380955219268799
+  ],
+  "mean_reward": 0.5476190476190477,
+  "training_input_tokens": 154919,
+  "nonzero_advantage_tokens": 56791,
+  "training_datums": 8,
+  "max_training_sequence_tokens": 22330,
+  "optimization_seconds": 19.845497992821038,
+  "forward_backward_metrics": {
+    "e_frac_oversubscribed:mean": 0.3323567807674408,
+    "e_frac_with_tokens:mean": 0.9920247793197632,
+    "clock_cycle:unique": 8082894.0,
+    "e_max_violation:mean": 5.9194769859313965,
+    "e_min_violation:mean": -0.9895709753036499,
+    "loss:sum": -72.87928771972656,
+    "e_max_violation:max": 15.0
+  },
+  "optimizer_metrics": {
+    "unclipped_grad_l2:mean": 427.72515869140625
+  },
+  "optimizer_result": {
+    "metrics": {
+      "unclipped_grad_l2:mean": 427.72515869140625
+    }
+  },
+  "forward_backward_request_id": null,
+  "optimizer_request_id": null,
+  "forward_backward_result": {
+    "loss_fn_output_type": "TorchLossReturn",
+    "output_count": 8,
+    "metrics": {
+      "e_frac_oversubscribed:mean": 0.3323567807674408,
+      "e_frac_with_tokens:mean": 0.9920247793197632,
+      "clock_cycle:unique": 8082894.0,
+      "e_max_violation:mean": 5.9194769859313965,
+      "e_min_violation:mean": -0.9895709753036499,
+      "loss:sum": -72.87928771972656,
+      "e_max_violation:max": 15.0
+    }
+  },
+  "original_receipt_sha256": "1d57d599c1bf1a9fb66f8eebdea295d45369e1e2bb6005687270986e21fed736",
+  "privacy": "Derived receipt; execution paths, cloud checkpoint URIs and full trajectories are retained privately.",
+  "request_id_note": "SDK 0.39.2 does not expose the inner request ID through this public response object; null is preserved."
+}

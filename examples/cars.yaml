@@ -1,0 +1,52 @@
+format: elt_framework_v1
+run_id: cars-training
+output: ../runs/cars-training
+task:
+  id: cars
+  spec: tasks/cars.yaml
+model:
+  id: thinkingmachines/Inkling-2-Mini
+  renderer: tml_v0
+  renderer_effort: 0.0
+  context_tokens: 64000
+warehouse:
+  backend: snowflake
+reward:
+  type: pure_cell
+  version: pure_cell_accuracy_v1
+training:
+  batches: 16
+  group_size: 8
+  learning_rate: 1.0e-05
+  rank: 16
+  temperature: 0.8
+  top_p: 1.0
+  top_k: -1
+  seed: 0
+  concurrency: 8
+evaluation:
+  task: cars
+  interval: 4
+  rollouts: 10
+  final_rollouts: 20
+  seed: 200000000
+  temperature: 0.8
+limits:
+  max_turns: 200
+  max_tokens: 49152
+  max_episode_tokens: 262144
+  max_seconds: null
+  sampling_timeout_seconds: 180
+  optimization_timeout_seconds: 900
+  checkpoint_timeout_seconds: 900
+  max_sampling_tokens: 1280000000
+  max_training_tokens: 20000000
+  max_evaluation_attempts: 1
+authorization:
+  models:
+  - thinkingmachines/Inkling-2-Mini
+  tasks:
+  - cars
+  max_batches: 16
+  max_concurrency: 8
+  fresh_base_only: true

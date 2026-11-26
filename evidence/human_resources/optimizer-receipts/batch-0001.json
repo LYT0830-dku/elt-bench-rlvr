@@ -1,0 +1,69 @@
+{
+  "batch": 1,
+  "status": "effective_update_confirmed",
+  "updates": 1,
+  "updates_before": 0,
+  "rewards": [
+    0.0,
+    0.0,
+    0.0,
+    0.8958333333333334,
+    0.9270833333333334,
+    0.0,
+    0.59375,
+    0.9270833333333334
+  ],
+  "advantages": [
+    -0.4179687201976776,
+    -0.4179687201976776,
+    -0.4179687201976776,
+    0.4778645932674408,
+    0.5091146230697632,
+    -0.4179687201976776,
+    0.1757812798023224,
+    0.5091146230697632
+  ],
+  "mean_reward": 0.41796875,
+  "training_input_tokens": 258426,
+  "nonzero_advantage_tokens": 97955,
+  "training_datums": 10,
+  "max_training_sequence_tokens": 32841,
+  "optimization_seconds": 18.21977082733065,
+  "forward_backward_metrics": {
+    "clock_cycle:unique": 4426530.0,
+    "clock_cycle:unique_1": 4426530.0,
+    "e_frac_oversubscribed:mean": 0.3578124940395355,
+    "e_frac_with_tokens:mean": 1.0,
+    "e_max_violation:max": 15.810940742492676,
+    "e_max_violation:mean": 7.273648262023926,
+    "e_min_violation:mean": -0.972501277923584,
+    "loss:sum": 765.677001953125
+  },
+  "optimizer_metrics": {
+    "unclipped_grad_l2:mean": 2977.919189453125
+  },
+  "optimizer_result": {
+    "metrics": {
+      "unclipped_grad_l2:mean": 2977.919189453125
+    }
+  },
+  "forward_backward_request_id": null,
+  "optimizer_request_id": null,
+  "forward_backward_result": {
+    "loss_fn_output_type": "TorchLossReturn",
+    "output_count": 10,
+    "metrics": {
+      "clock_cycle:unique": 4426530.0,
+      "clock_cycle:unique_1": 4426530.0,
+      "e_frac_oversubscribed:mean": 0.3578124940395355,
+      "e_frac_with_tokens:mean": 1.0,
+      "e_max_violation:max": 15.810940742492676,
+      "e_max_violation:mean": 7.273648262023926,
+      "e_min_violation:mean": -0.972501277923584,
+      "loss:sum": 765.677001953125
+    }
+  },
+  "original_receipt_sha256": "bebc8f7b14b96ce7db68f518bf9d2c7457fc46ceeac91e2a429564e80c767f14",
+  "privacy": "Derived receipt; execution paths, cloud checkpoint URIs and full trajectories are retained privately.",
+  "request_id_note": "SDK 0.39.2 does not expose the inner request ID through this public response object; null is preserved."
+}

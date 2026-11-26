@@ -1,0 +1,85 @@
+format: elt_task_spec_v1
+id: human_resources
+manifest: ../../data/tasks/human-resources-native/task.yaml
+official_revision: e2e377766604f61930165f20d4fcab8400a3e997
+evaluation:
+  provider: original_elt_bench
+  warehouse_backends:
+  - snowflake
+  metrics:
+  - SRDEL
+  - SRDT
+  - end_to_end_success
+  - column_accuracy
+alignment:
+  type: primary_key
+  verified: true
+  evidence: Official descriptions identify position_id and location_id as unique identifiers.
+    All original-linked reference rows checked for NULL/duplicate keys at load.
+required_tools:
+- native_loading_v1
+- dbt
+targets:
+- name: positions
+  keys:
+  - position_id
+  fields:
+  - name: position_id
+    kind: integer
+    role: identifier
+    minimum: '1'
+  - name: position_title
+    kind: string
+  - name: education_required
+    kind: string
+  - name: num_poor_performing_employees
+    kind: integer
+    comparator: official_elt_relative_v1
+    minimum: '0'
+  - name: num_female_employees
+    kind: integer
+    comparator: official_elt_relative_v1
+    minimum: '0'
+  - name: per_salary_over_20000
+    kind: decimal
+    comparator: official_elt_relative_v1
+    minimum: '0'
+  - name: avg_salary
+    kind: decimal
+    comparator: official_elt_relative_v1
+    minimum: '0'
+  - name: has_maximum_salary_no_more_than_70000
+    kind: integer
+    role: categorical
+    minimum: '0'
+    maximum: '1'
+- name: locations
+  keys:
+  - location_id
+  fields:
+  - name: location_id
+    kind: integer
+    role: identifier
+    minimum: '1'
+  - name: location_state
+    kind: string
+  - name: location_address
+    kind: string
+  - name: num_employees
+    kind: integer
+    comparator: official_elt_relative_v1
+    minimum: '0'
+  - name: highest_paid_employee
+    kind: string
+  - name: num_of_trainee
+    kind: integer
+    comparator: official_elt_relative_v1
+    minimum: '0'
+  - name: num_account_representatives_with_average_performance
+    kind: integer
+    comparator: official_elt_relative_v1
+    minimum: '0'
+  - name: num_employees_have_good_perfomance
+    kind: integer
+    comparator: official_elt_relative_v1
+    minimum: '0'

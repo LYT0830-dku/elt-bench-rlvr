@@ -1,0 +1,70 @@
+{
+  "training_release": "0.5.8",
+  "config": {
+    "task": "data/tasks/human-resources-native/task.yaml",
+    "output": "runs/human_resources-recorded",
+    "model": "Qwen/Qwen3.6-35B-A3B",
+    "renderer": "qwen3_5_strings",
+    "renderer_effort": null,
+    "action_protocol": "native_tools_v1",
+    "destination": "snowflake",
+    "batches": 1,
+    "group_size": 8,
+    "max_turns": 80,
+    "max_tokens": 16384,
+    "context_tokens": 64000,
+    "learning_rate": 1e-05,
+    "rank": 16,
+    "temperature": 0.8,
+    "top_p": 1.0,
+    "top_k": -1,
+    "seed": 0,
+    "max_episode_tokens": 262144,
+    "max_sampling_tokens": 1280000000,
+    "max_training_tokens": 20000000,
+    "max_seconds": null,
+    "sampling_timeout_seconds": 180,
+    "eval_episodes": 1,
+    "resume_checkpoint": null,
+    "allow_remote": true,
+    "optimization_timeout_seconds": 900,
+    "checkpoint_timeout_seconds": 900,
+    "concurrency": 8,
+    "max_evaluation_attempts": 1,
+    "deadline_utc": null,
+    "schedule": "batches_v1",
+    "evaluation_interval": 4,
+    "evaluation_enabled": false,
+    "final_eval_episodes": 1,
+    "final_seed": 200000000,
+    "run_id": "human-resources-qwen36-35b-update-only-v5-20261126",
+    "task_spec_path": "examples/tasks/human_resources.yaml",
+    "task_groups": [
+      {
+        "task_id": "human_resources",
+        "specification": "examples/tasks/human_resources.yaml"
+      }
+    ],
+    "evaluation_task": "human_resources",
+    "reward": {
+      "type": "pure_cell",
+      "version": "pure_cell_accuracy_v1"
+    },
+    "evaluation_temperature": 0.8,
+    "evaluation_limits": {},
+    "authorization": {
+      "models": [
+        "Qwen/Qwen3.6-35B-A3B"
+      ],
+      "tasks": [
+        "human_resources"
+      ],
+      "max_batches": 1,
+      "max_concurrency": 8,
+      "fresh_base_only": true
+    }
+  },
+  "original_config_paths_remapped": true,
+  "note": "Recorded settings, not planned settings. Paths are portable aliases; original configuration remains private. Disabled evaluation counts are configuration values, not executed evaluations.",
+  "original_protocol_sha256": "c6e441443b18293baa29c35866a0355a1199a3c391f816e682a8f0a73f9c9284"
+}

@@ -1,0 +1,16 @@
+{
+  "format": "native_loading_v1",
+  "destination": {"database": "assigned", "schema": "airbyte_schema"},
+  "connections": [
+    {
+      "name": "customers", "source": "customers", "connector": "http", "format": "csv",
+      "table": "customers", "columns": {"customer_id": "VARCHAR", "customer_name": "VARCHAR"},
+      "sync_mode": "full_refresh_overwrite"
+    },
+    {
+      "name": "orders", "source": "orders", "connector": "http", "format": "jsonl",
+      "table": "orders", "columns": {"order_id": "BIGINT", "customer_id": "VARCHAR", "amount": "DOUBLE"},
+      "sync_mode": "full_refresh_overwrite"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "workflow_syntax": "passed",
+  "shell_syntax": "passed",
+  "hosted_github_actions": "not run before publication",
+  "sample_pipeline_integrity": "passed",
+  "sample_pipeline_actions": 18,
+  "credentialed_replay_executed": false
+}

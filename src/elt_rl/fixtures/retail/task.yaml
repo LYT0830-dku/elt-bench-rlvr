@@ -1,0 +1,46 @@
+name: retail_fixture
+description: Load customers and orders. Produce one customer_sales row per customer,
+  including customers without orders. total_orders counts all orders; net_sales sums
+  amount, including negative refunds, defaulting to 0. Preserve customer_id leading
+  zeros and customer_name case. Order of output rows does not matter.
+provenance:
+  task_definition: custom_local_test
+  benchmark: synthetic_integration_fixture
+  official_task: false
+sources:
+- name: customers
+  kind: file
+  columns:
+  - customer_id
+  - customer_name
+  options:
+    path: customers.csv
+    format: csv
+- name: orders
+  kind: file
+  columns:
+  - order_id
+  - customer_id
+  - amount
+  options:
+    path: orders.jsonl
+    format: jsonl
+targets:
+- name: customer_sales
+  columns:
+  - customer_id
+  - customer_name
+  - total_orders
+  - net_sales
+  keys:
+  - customer_id
+  numeric:
+  - total_orders
+  - net_sales
+  expected: expected.csv
+mode: local_test
+project_dir: project
+runtime:
+  config_file: runtime.json
+reference_sha256:
+  customer_sales: 32847d037b40baf9ee115a4b79e7daeea3ad59d24768e7d61d29ee5993f7dfe8

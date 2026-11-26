@@ -1,0 +1,3 @@
+Load the supplied customers and orders sources through elt/loading.json. Use loading validate/plan/apply, then sync and wait_sync for each selected connection. No destination tables are preloaded.
+
+Build customer_sales with one row per customer, including customers without orders. total_orders counts every order. net_sales sums non-null amounts including negative refunds and defaults to zero. Preserve customer_id leading zeros and customer_name case. Author and execute the dbt project, then submit the resulting pipeline.

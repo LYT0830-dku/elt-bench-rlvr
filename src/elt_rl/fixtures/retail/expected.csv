@@ -1,0 +1,5 @@
+customer_id,customer_name,total_orders,net_sales
+001,Alice,2,8.25
+002,Bob,1,7.50
+003,Chen,0,0
+004,Dana,1,0

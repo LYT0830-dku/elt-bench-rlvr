@@ -1,0 +1,8 @@
+include README.md
+include CHANGELOG.md THIRD_PARTY_NOTICES.md
+recursive-include docs *.md *.svg *.json *.png *.csv *.docx
+recursive-include examples *.json *.yaml
+recursive-include tools *.py *.lock *.json *.yaml *.md
+recursive-include tests *.py
+recursive-include .github *.yml
+recursive-include evidence *.md *.json *.csv *.png *.log

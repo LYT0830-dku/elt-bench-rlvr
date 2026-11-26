@@ -1,0 +1,138 @@
+[
+  {
+    "episode_id": "train-batch-0001-000",
+    "cohort": "train-batch-0001",
+    "reward": 0.0,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": false,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 2,
+    "target_success": {
+      "positions": false,
+      "locations": false
+    },
+    "known_policy_zero": true,
+    "original_episode_sha256": "a69554dc6e501040a4b70a3ae85b1d0b1e49251d67178ead73ca298178ae7793"
+  },
+  {
+    "episode_id": "train-batch-0001-001",
+    "cohort": "train-batch-0001",
+    "reward": 0.0,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": false,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 2,
+    "target_success": {
+      "positions": false,
+      "locations": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "0b24654a49dbc071194d0342208ba4c2135325f53ba17e8a328f90c90fbf8ec9"
+  },
+  {
+    "episode_id": "train-batch-0001-002",
+    "cohort": "train-batch-0001",
+    "reward": 0.0,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": false,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 2,
+    "target_success": {
+      "positions": false,
+      "locations": false
+    },
+    "known_policy_zero": true,
+    "original_episode_sha256": "257ad302c66ebda24e8d6328142d3a542e02a0d3168de339b8c76fdb784b1e8d"
+  },
+  {
+    "episode_id": "train-batch-0001-003",
+    "cohort": "train-batch-0001",
+    "reward": 0.8958333333333334,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 2,
+    "target_success": {
+      "positions": false,
+      "locations": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "747fa5bf680c27f5a622b7726ba5b586d93e748114aed1873fe6de51c352418d"
+  },
+  {
+    "episode_id": "train-batch-0001-004",
+    "cohort": "train-batch-0001",
+    "reward": 0.9270833333333334,
+    "previous_srdt": false,
+    "official_srdt": 0.5,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 1,
+    "required_target_models": 2,
+    "target_success": {
+      "positions": true,
+      "locations": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "8696fa5b3e2d06c418242ed1660270776f58fa81af4bb4ed952942915e2f0a7e"
+  },
+  {
+    "episode_id": "train-batch-0001-005",
+    "cohort": "train-batch-0001",
+    "reward": 0.0,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": false,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 2,
+    "target_success": {
+      "positions": false,
+      "locations": false
+    },
+    "known_policy_zero": true,
+    "original_episode_sha256": "eb7b9bac3591c4c33b4c4b35433c4ea9e41aaa454186f8c93ef6d973f0effec1"
+  },
+  {
+    "episode_id": "train-batch-0001-006",
+    "cohort": "train-batch-0001",
+    "reward": 0.59375,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 2,
+    "target_success": {
+      "positions": false,
+      "locations": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "f45c97699a2f50675497801adb8782a429edc47b4483e7ae5b678d8e816291c9"
+  },
+  {
+    "episode_id": "train-batch-0001-007",
+    "cohort": "train-batch-0001",
+    "reward": 0.9270833333333334,
+    "previous_srdt": false,
+    "official_srdt": 0.5,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 1,
+    "required_target_models": 2,
+    "target_success": {
+      "positions": true,
+      "locations": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "834e13a7ff5b32341188af42f31f02fe28628ef831a240a473820efa4b57ab1b"
+  }
+]

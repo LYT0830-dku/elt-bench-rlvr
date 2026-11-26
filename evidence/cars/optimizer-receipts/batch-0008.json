@@ -1,0 +1,67 @@
+{
+  "batch": 8,
+  "status": "effective_update_confirmed",
+  "updates": 8,
+  "updates_before": 7,
+  "rewards": [
+    0.5238095238095238,
+    0.5714285714285714,
+    0.5238095238095238,
+    0.5714285714285714,
+    0.5238095238095238,
+    0.5714285714285714,
+    0.5238095238095238,
+    0.5714285714285714
+  ],
+  "advantages": [
+    -0.02380955219268799,
+    0.023809492588043213,
+    -0.02380955219268799,
+    0.023809492588043213,
+    -0.02380955219268799,
+    0.023809492588043213,
+    -0.02380955219268799,
+    0.023809492588043213
+  ],
+  "mean_reward": 0.5476190476190477,
+  "training_input_tokens": 198674,
+  "nonzero_advantage_tokens": 72921,
+  "training_datums": 9,
+  "max_training_sequence_tokens": 28755,
+  "optimization_seconds": 9.73236039467156,
+  "forward_backward_metrics": {
+    "e_max_violation:mean": 5.803539276123047,
+    "e_frac_with_tokens:mean": 0.99365234375,
+    "e_frac_oversubscribed:mean": 0.3331705927848816,
+    "clock_cycle:unique": 8083139.0,
+    "e_min_violation:mean": -0.9886850118637085,
+    "loss:sum": -165.59303879737854,
+    "e_max_violation:max": 15.000000953674316
+  },
+  "optimizer_metrics": {
+    "unclipped_grad_l2:mean": 268.9745788574219
+  },
+  "optimizer_result": {
+    "metrics": {
+      "unclipped_grad_l2:mean": 268.9745788574219
+    }
+  },
+  "forward_backward_request_id": null,
+  "optimizer_request_id": null,
+  "forward_backward_result": {
+    "loss_fn_output_type": "TorchLossReturn",
+    "output_count": 9,
+    "metrics": {
+      "e_max_violation:mean": 5.803539276123047,
+      "e_frac_with_tokens:mean": 0.99365234375,
+      "e_frac_oversubscribed:mean": 0.3331705927848816,
+      "clock_cycle:unique": 8083139.0,
+      "e_min_violation:mean": -0.9886850118637085,
+      "loss:sum": -165.59303879737854,
+      "e_max_violation:max": 15.000000953674316
+    }
+  },
+  "original_receipt_sha256": "e20a50bdd0580feb5364651f396134135ba3ac7875a569c4ad4d35f82698fb08",
+  "privacy": "Derived receipt; execution paths, cloud checkpoint URIs and full trajectories are retained privately.",
+  "request_id_note": "SDK 0.39.2 does not expose the inner request ID through this public response object; null is preserved."
+}

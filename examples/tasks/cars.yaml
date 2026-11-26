@@ -1,0 +1,52 @@
+format: elt_task_spec_v1
+id: cars
+manifest: ../../data/tasks/cars-native/task.yaml
+official_revision: e2e377766604f61930165f20d4fcab8400a3e997
+evaluation:
+  provider: original_elt_bench
+  warehouse_backends:
+  - snowflake
+  metrics:
+  - SRDEL
+  - SRDT
+  - end_to_end_success
+  - column_accuracy
+alignment:
+  type: primary_key
+  verified: true
+  evidence: Pinned data_model identifies origin as unique; trusted reference key uniqueness
+    and asset SHA256 are validated before execution.
+required_tools:
+- native_loading_v1
+- dbt
+resources:
+  logical_schema: airbyte_schema
+targets:
+- name: countries
+  keys:
+  - origin
+  fields:
+  - name: origin
+    kind: integer
+    role: identifier
+    minimum: '1'
+  - name: country
+    kind: string
+    role: categorical
+  - name: fastest_car
+    kind: string
+  - name: most_fuel_efficient_car
+    kind: string
+  - name: num_cars
+    kind: integer
+    minimum: '0'
+    comparator: official_elt_relative_v1
+  - name: num_car_worth_over_35000_and_acceleration_14
+    kind: integer
+    minimum: '0'
+    comparator: official_elt_relative_v1
+  - name: avg_car_price
+    kind: decimal
+    nullable: true
+    minimum: '0'
+    comparator: official_elt_relative_v1

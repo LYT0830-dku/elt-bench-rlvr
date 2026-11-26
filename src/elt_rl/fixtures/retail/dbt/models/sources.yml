@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: input
+    schema: "{{ var('destination_schema') }}"
+    tables:
+      - name: customers
+      - name: orders

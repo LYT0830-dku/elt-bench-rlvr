@@ -1,0 +1,23 @@
+{
+  "experiments": [
+    {
+      "task": "cars",
+      "summary": "cars/summary.json",
+      "actual_configuration": "cars/actual-config.json",
+      "batches": "cars/training-batches.json",
+      "optimizer_receipts": "cars/optimizer-receipts/",
+      "checkpoint_lineage": "cars/checkpoint-lineage.json"
+    },
+    {
+      "task": "human_resources",
+      "summary": "human_resources/summary.json",
+      "actual_configuration": "human_resources/actual-config.json",
+      "batches": "human_resources/training-batches.json",
+      "optimizer_receipts": "human_resources/optimizer-receipts/",
+      "checkpoint_lineage": "human_resources/checkpoint-lineage.json"
+    }
+  ],
+  "selection": "Only the two experiments selected for the final handoff; earlier superseded experiment records remain privately archived.",
+  "raw_records": "Privately archived separately; no operational credentials or cloud weight binaries are included here.",
+  "metric_correction": "SRDT is a fraction of correct target data models, distinct from whole-pipeline success. Original reports/rewards/optimizer records were not rewritten."
+}

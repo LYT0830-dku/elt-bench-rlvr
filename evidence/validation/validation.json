@@ -1,0 +1,127 @@
+{
+  "release": "0.6.1",
+  "system": "Linux",
+  "python": "3.12.3",
+  "status": "passed",
+  "checks": {
+    "install-cookbook-wheel": {
+      "returncode": 0,
+      "seconds": 91.91942095756531,
+      "log_sha256": "f68e75191ec8e438c83825c4abe60ab824af8c4d401483afbf44d717e609bf96"
+    },
+    "install-pinned-dependencies": {
+      "returncode": 0,
+      "seconds": 66.12031936645508,
+      "log_sha256": "8902302f45ea4c4306a00c9970503d2e15a12987efc7af46b02c5c16724bb98e"
+    },
+    "install-project": {
+      "returncode": 0,
+      "seconds": 5.42337703704834,
+      "log_sha256": "a7b99282ca5e6059e34379848442b58b42e3aea3c0c3150a97c2086765c452c5"
+    },
+    "create-dbt-environment": {
+      "returncode": 0,
+      "seconds": 4.2216150760650635,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "install-dbt": {
+      "returncode": 0,
+      "seconds": 63.91771149635315,
+      "log_sha256": "ddbf2cbcb3e2fab4a53a14c4669f2faa0e78e653edf9101a43f56f9d241eeb28"
+    },
+    "build-package": {
+      "returncode": 0,
+      "seconds": 5.122743129730225,
+      "log_sha256": "239865aab3da8e70889e9cb2ccb290056c5fe7b3cf4d1fd633039376bd70d527"
+    },
+    "install-wheel": {
+      "returncode": 0,
+      "seconds": 1.3668365478515625,
+      "log_sha256": "ba095eb8f5bf96345adcec7c00f9ac321bb548321791a4d69722a61520954c77"
+    },
+    "lint": {
+      "returncode": 0,
+      "seconds": 0.11476993560791016,
+      "log_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    "format": {
+      "returncode": 0,
+      "seconds": 0.1147916316986084,
+      "log_sha256": "4327c987299d88b4f4a357992babe2c2d610c2ee6ae4106455f5eda8158364cc"
+    },
+    "pytest": {
+      "returncode": 0,
+      "seconds": 260.0241210460663,
+      "log_sha256": "7d49af0b633e37a7c600229df4bad4db64e1f519fa95023cb6321f71b2038da6"
+    },
+    "native-integration": {
+      "returncode": 0,
+      "seconds": 10.680302381515503,
+      "log_sha256": "6fc6a9ca2cf483b8587366dd8e0368faa44fce86f3d1052c2d6d4fd5a5cf04eb"
+    },
+    "cli-demo": {
+      "returncode": 0,
+      "seconds": 0.1649150848388672,
+      "log_sha256": "2071b77dcaceb55e751f16676c2f5ad5fbe8fadbb25c0b8c4c05fe423c711e44"
+    },
+    "cli-fetch-assets": {
+      "returncode": 0,
+      "seconds": 0.16477417945861816,
+      "log_sha256": "5201f2d5fb5b06a713059f3122cf4f88d21f387c7c20d1f5c90169ff7f70f16c"
+    },
+    "cli-prepare-task": {
+      "returncode": 0,
+      "seconds": 0.16484928131103516,
+      "log_sha256": "be0439cba27e368a6eb71a34c047b7cec42bca1281f970aeb9eb7828fcf2643c"
+    },
+    "cli-inspect-task": {
+      "returncode": 0,
+      "seconds": 0.16480612754821777,
+      "log_sha256": "5f93ec127608a81d892b94e16cb74b93ed0afa4acbf1722dd0d516b3ff42dc4f"
+    },
+    "cli-inspect-experiment": {
+      "returncode": 0,
+      "seconds": 0.16471171379089355,
+      "log_sha256": "c2e6a5cb6ec44e90d60ac55cfc626ee812bb851e73dde268fa7c95976e457c05"
+    },
+    "cli-train": {
+      "returncode": 0,
+      "seconds": 0.16479158401489258,
+      "log_sha256": "aab4ab6abc42465ded3b6f7217510b3867f3bc03bf4c3a4a287306dff1f54708"
+    },
+    "cli-evaluate": {
+      "returncode": 0,
+      "seconds": 0.16470789909362793,
+      "log_sha256": "5db97c584828c904fdbb1fb95aea60ba52c006b67bb77aa932bfd2480f9879c6"
+    },
+    "cli-run-project": {
+      "returncode": 0,
+      "seconds": 0.16457247734069824,
+      "log_sha256": "41185fb468e8ea685181b0e4ebc4d0089bb36549ff4d239f6205490a6fb38005"
+    },
+    "cli-configure-tinker": {
+      "returncode": 0,
+      "seconds": 0.16453790664672852,
+      "log_sha256": "089d7eb8e6bec4d251df6bad18fcb29db7a2dd98b22baff5990107dcac414417"
+    },
+    "cli-prepare-snowflake": {
+      "returncode": 0,
+      "seconds": 0.16453337669372559,
+      "log_sha256": "bc80ab7453781be820a23d2737ef5f63e9163e683391422e96dd4db959f4dd06"
+    },
+    "dependencies": {
+      "returncode": 0,
+      "seconds": 1.7190601825714111,
+      "log_sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+    },
+    "installed-source": {
+      "returncode": 0,
+      "seconds": 0.11496925354003906,
+      "log_sha256": "9f507870b927e5884880cf4d11fd55b1585079396fbecaa232fbe933acf4a998"
+    }
+  },
+  "clean_dependency_environment": true,
+  "clean_install_fallback": "Exact-commit cached Cookbook wheel after GitHub Git TLS failure; fresh isolated dependency environment, no borrowed site-packages",
+  "paid_model_calls": 0,
+  "installation_note": "A direct Git dependency fetch failed TLS; a provenance-verified wheel from the identical pinned commit was used in fresh environments. No existing site-packages were borrowed."
+}

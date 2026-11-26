@@ -1,0 +1,17 @@
+{
+  "format": "elt_project_v1",
+  "files": {
+    "dbt/dbt_project.yml": "fb6928c2d61253accee59eca8d1cfef2a3e8f39930b784eba8fe199e388c8dff",
+    "dbt/models/sources.yml": "f2ed558b6627a5238afa09c1267b783d4a7d8160662e9e0642afaeaf083a93e5",
+    "dbt/models/customer_sales.sql": "514b45c28e4296734a7d9791b98bcf653810dd8d26be1543e6312c3270a0b256",
+    "elt/loading.json": "05ec5022fa4c36ed2aa4ac2ba0800c1df93b2f348a6a2347f69b4764fb0cb5ab"
+  },
+  "recipe": {
+    "sync_connections": [
+      "native_connection.customers",
+      "native_connection.orders"
+    ],
+    "dbt_command": "run",
+    "loading_backend": "native_loading_v1"
+  }
+}

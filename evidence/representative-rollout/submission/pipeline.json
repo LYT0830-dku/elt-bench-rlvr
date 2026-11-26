@@ -1,0 +1,19 @@
+{
+  "format": "elt_project_v1",
+  "files": {
+    "dbt/dbt_project.yml": "bfab95a809763c076357ad0e73085444690ecb7b22fa2ac6cdd85925535ac66a",
+    "dbt/models/countries.sql": "bfff1f7e5b5ea9c2cae474f9a4b48c5d41f199ec8e48132e1d113f0190cd109e",
+    "dbt/models/sources.yml": "37d880031cf0a278afc20698872a4f53d207a116169942a457ec631de36ebd73",
+    "elt/loading.json": "4bb1ea384d9574d24a5095f86346b1bd290ff64de8bce8bf996e0797a356b227"
+  },
+  "recipe": {
+    "sync_connections": [
+      "native_connection.data",
+      "native_connection.price",
+      "native_connection.country",
+      "native_connection.production"
+    ],
+    "dbt_command": "run",
+    "loading_backend": "native_loading_v1"
+  }
+}

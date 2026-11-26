@@ -1,0 +1,27 @@
+name: native-tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  local:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install CPU tensor runtime
+        run: pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -e '.[native,dev]'
+      - name: Install fixed dbt environment
+        run: |
+          python -m venv .venv-dbt
+          .venv-dbt/bin/pip install -r tools/python-tools.lock
+          echo "ELT_DBT_EXECUTABLE=$PWD/.venv-dbt/bin/dbt" >> "$GITHUB_ENV"
+      - run: ruff check src tests tools
+      - run: ruff format --check src tests tools
+      - run: pytest -q
+      - name: Credential free integration
+        run: elt-rl demo --output runs/ci-integration.json
+      - name: Build installable package
+        run: pip wheel --no-deps . --wheel-dir dist

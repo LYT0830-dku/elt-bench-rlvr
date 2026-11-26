@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "task": "human_resources",
+  "selected_rollouts": 8,
+  "changed_rollouts": 2,
+  "changes": [
+    {
+      "episode_id": "train-batch-0001-004",
+      "cohort": "train-batch-0001",
+      "reward": 0.9270833333333334,
+      "previous_srdt": false,
+      "official_srdt": 0.5,
+      "official_srdel": true,
+      "end_to_end_success": false,
+      "correct_target_models": 1,
+      "required_target_models": 2,
+      "target_success": {
+        "positions": true,
+        "locations": false
+      },
+      "known_policy_zero": false,
+      "original_episode_sha256": "8696fa5b3e2d06c418242ed1660270776f58fa81af4bb4ed952942915e2f0a7e"
+    },
+    {
+      "episode_id": "train-batch-0001-007",
+      "cohort": "train-batch-0001",
+      "reward": 0.9270833333333334,
+      "previous_srdt": false,
+      "official_srdt": 0.5,
+      "official_srdel": true,
+      "end_to_end_success": false,
+      "correct_target_models": 1,
+      "required_target_models": 2,
+      "target_success": {
+        "positions": true,
+        "locations": false
+      },
+      "known_policy_zero": false,
+      "original_episode_sha256": "834e13a7ff5b32341188af42f31f02fe28628ef831a240a473820efa4b57ab1b"
+    }
+  ],
+  "reward_changed": false,
+  "original_records_modified": false,
+  "method": "Offline aggregation of unmodified pinned official per-target column logs; all declared target models remain in the denominator",
+  "source_protocol_sha256": "c6e441443b18293baa29c35866a0355a1199a3c391f816e682a8f0a73f9c9284"
+}

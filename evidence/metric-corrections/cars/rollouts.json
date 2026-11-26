@@ -1,0 +1,3490 @@
+[
+  {
+    "episode_id": "train-batch-0001-000",
+    "cohort": "train-batch-0001",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "04884cfa4db216c7938911e088262f74aa1ff78e5d723d8bf928cc4afe3f4fc9"
+  },
+  {
+    "episode_id": "train-batch-0001-001",
+    "cohort": "train-batch-0001",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "7f2562e8f19210a18fc76a56f57a869e699c8ac2e7c6ecae927e28b3301651d8"
+  },
+  {
+    "episode_id": "train-batch-0001-002",
+    "cohort": "train-batch-0001",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "db30375929a76dfc8593c9fca827c22a6cad515f8a7556d95480e8f868f041eb"
+  },
+  {
+    "episode_id": "train-batch-0001-003",
+    "cohort": "train-batch-0001",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "f6665bbadd9552aa5410367c3c9627df3402cd310e03070d148b32697b564ed5"
+  },
+  {
+    "episode_id": "train-batch-0001-004",
+    "cohort": "train-batch-0001",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "304a76b5fe3aa069094825d4dac0f8508d59dcfcd2565a08c915a19b9e055cb0"
+  },
+  {
+    "episode_id": "train-batch-0001-005",
+    "cohort": "train-batch-0001",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "0d735090d76379b8c6bdced72904250bbd7a636acd942bcb45184758c049f8b7"
+  },
+  {
+    "episode_id": "train-batch-0001-006",
+    "cohort": "train-batch-0001",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "f7df73a0b76d39262818de0c817b7d1cf2db2640eac321e99c69935094cdf2bf"
+  },
+  {
+    "episode_id": "train-batch-0001-007",
+    "cohort": "train-batch-0001",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e225d3a0e73699280c41803653591cc45799b6ee40c8b27ab09978dea2ce3855"
+  },
+  {
+    "episode_id": "train-batch-0002-000",
+    "cohort": "train-batch-0002",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "5541e44663ac54fa4427eec1512b79f8ce448bf87af4068405c2472d3eddd6a8"
+  },
+  {
+    "episode_id": "train-batch-0002-001",
+    "cohort": "train-batch-0002",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "21899be508709e25686abf0247d13b8a309f78c8899dda4bc576dc9c004e31d1"
+  },
+  {
+    "episode_id": "train-batch-0002-002",
+    "cohort": "train-batch-0002",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "f2a83ace54d17dd559d443ac70f772e6067deeddc41b52b12f82362384dffe74"
+  },
+  {
+    "episode_id": "train-batch-0002-003",
+    "cohort": "train-batch-0002",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e41b77dad224b8a5d41ca71057f2dd388de6870c1bfa11e8411fe82224d5ca61"
+  },
+  {
+    "episode_id": "train-batch-0002-004",
+    "cohort": "train-batch-0002",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "94187e841cd0b913ecae23d48c18534b631107cee94f762f2a1c319e2a899fd2"
+  },
+  {
+    "episode_id": "train-batch-0002-005",
+    "cohort": "train-batch-0002",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1bc45d9c1bf535b0a86050776da1a7cf6b9d4b15b35d1bc978e6d5dfbaa659bb"
+  },
+  {
+    "episode_id": "train-batch-0002-006",
+    "cohort": "train-batch-0002",
+    "reward": 0.9047619047619048,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "dbfa063f921e7ae080ece1724c7ab47aae0a2bbe21ba7764d619f08194c6492a"
+  },
+  {
+    "episode_id": "train-batch-0002-007",
+    "cohort": "train-batch-0002",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1295535594712456da2df0dac346cebb841a8263cc43b642d639c2ab1f289edc"
+  },
+  {
+    "episode_id": "train-batch-0003-000",
+    "cohort": "train-batch-0003",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "d4a3a21749725b9516b7aa2d4222c0af7882bdc96ed1d10a28e39a220f7ffdc5"
+  },
+  {
+    "episode_id": "train-batch-0003-001",
+    "cohort": "train-batch-0003",
+    "reward": 0.8571428571428571,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1359e3e1caedeb4753dfa4dcf9b9d0559438979605b0bae7634ca07aa878762a"
+  },
+  {
+    "episode_id": "train-batch-0003-002",
+    "cohort": "train-batch-0003",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "9a8e8d4a460aa2a21efe6d8702bddb9c5d262b83ed0f409eeec630a064c78ccb"
+  },
+  {
+    "episode_id": "train-batch-0003-003",
+    "cohort": "train-batch-0003",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "8e7617323b677867db801ada137dcee0d1642e5f26b2aa6dd8764e551f0e3b39"
+  },
+  {
+    "episode_id": "train-batch-0003-004",
+    "cohort": "train-batch-0003",
+    "reward": 0.8571428571428571,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "5db820924eead4c099d737f0099f78e4fc5b52b68a782bd5b0f70352d05721ff"
+  },
+  {
+    "episode_id": "train-batch-0003-005",
+    "cohort": "train-batch-0003",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "db15a2012999d69b80e48b84a2914921861a27b61b626c94586a09697b747303"
+  },
+  {
+    "episode_id": "train-batch-0003-006",
+    "cohort": "train-batch-0003",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "6a599fc8dc7aa0037be9a1e7d53d27737ab9d776c94245d4a5d960f386ff3653"
+  },
+  {
+    "episode_id": "train-batch-0003-007",
+    "cohort": "train-batch-0003",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "0e4ed54f0ab20dd1a2f0f479e37cb32bfec5f50cee5551a3762a3b6f1180adeb"
+  },
+  {
+    "episode_id": "train-batch-0004-000",
+    "cohort": "train-batch-0004",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "6cd1b9cdeaea7ba094f85108d1c79222be1751976c8890e2366609fc9e9a8044"
+  },
+  {
+    "episode_id": "train-batch-0004-001",
+    "cohort": "train-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "07564bfcf4389fd06eb257cb5b434ba60858fa12676961a99a1f5afbbf172e84"
+  },
+  {
+    "episode_id": "train-batch-0004-002",
+    "cohort": "train-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "3aa58ab4e9d501fa440cece4ef58194c90f32f6d07e3cedfe1ee3a943fa2ab7d"
+  },
+  {
+    "episode_id": "train-batch-0004-003",
+    "cohort": "train-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e81fe7918b566911e6fe270432313061f8bff6048772f212e333050e3ed3d5bb"
+  },
+  {
+    "episode_id": "train-batch-0004-004",
+    "cohort": "train-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "042de4587cf011f490329e6a73f2932f045bdca20c108d5b72e2f3e29e957ac5"
+  },
+  {
+    "episode_id": "train-batch-0004-005",
+    "cohort": "train-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "cef2c5997aec0937698ecfc377469fdb923cc43a6bb44873bef0bcbd940fc41b"
+  },
+  {
+    "episode_id": "train-batch-0004-006",
+    "cohort": "train-batch-0004",
+    "reward": 0.6666666666666666,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "09966638927866a950a1996df62aaf837db3d2817bb6aeb801b72aec8c2b19e9"
+  },
+  {
+    "episode_id": "train-batch-0004-007",
+    "cohort": "train-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "91e3a8fbcb677c5c38e182ad3712e7b63c91a9f6e5238a99492f8561004f2d6a"
+  },
+  {
+    "episode_id": "train-batch-0005-000",
+    "cohort": "train-batch-0005",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "cd5d93c930f8fd8967816e28f4e8efc43205455e9b6884fa322ddec6b8fb7d53"
+  },
+  {
+    "episode_id": "train-batch-0005-001",
+    "cohort": "train-batch-0005",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "f841068f05e6592905a87c3e9aafd4557f2671215941510a6a61160f0ad91f5e"
+  },
+  {
+    "episode_id": "train-batch-0005-002",
+    "cohort": "train-batch-0005",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "d38bf550cc44d3f05669f0d8f0b8b7e106ae69512173daf30ebcd4b25f657897"
+  },
+  {
+    "episode_id": "train-batch-0005-003",
+    "cohort": "train-batch-0005",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1610efbc684ccc1034f064011061c72ae257cf8b5f6699ca13ee607d6bfece2a"
+  },
+  {
+    "episode_id": "train-batch-0005-004",
+    "cohort": "train-batch-0005",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e13235f1c6c13027842660ab83b836de4258a9cc70d45a617058a07db9324954"
+  },
+  {
+    "episode_id": "train-batch-0005-005",
+    "cohort": "train-batch-0005",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "19382a5e78ff04a498449af20c8f9383f8d8578762295b90c47edc3d93ed650e"
+  },
+  {
+    "episode_id": "train-batch-0005-006",
+    "cohort": "train-batch-0005",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "04e3a0031b1eaa93eed80422c47fc387f9e38df523384f95cedb84a117c4534b"
+  },
+  {
+    "episode_id": "train-batch-0005-007",
+    "cohort": "train-batch-0005",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "731f993f741c9adda78014ddf8ee1e936a207c14e6da90735709491eaf90adec"
+  },
+  {
+    "episode_id": "train-batch-0006-000",
+    "cohort": "train-batch-0006",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "2838ad03ecbc02758fbc1544730ea93b8836a291dd9f283590b0fbbddf597f11"
+  },
+  {
+    "episode_id": "train-batch-0006-001",
+    "cohort": "train-batch-0006",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "85adf48e95fc67f7544be775b1ce2e73ca093ee062fede2866240b080b63a67a"
+  },
+  {
+    "episode_id": "train-batch-0006-002",
+    "cohort": "train-batch-0006",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "7ee580488c49c05e6d1df3abe50366368aec216be07abe89d948fc7388d05f34"
+  },
+  {
+    "episode_id": "train-batch-0006-003",
+    "cohort": "train-batch-0006",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "ec8012a529ecec208ffafb43e7b756c0aca316a02d8a54c9d945b83b988345dd"
+  },
+  {
+    "episode_id": "train-batch-0006-004",
+    "cohort": "train-batch-0006",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "c33f7653cea93c7e12746b495dccdc011f7e08fa027a896525cb9da372d8dd7a"
+  },
+  {
+    "episode_id": "train-batch-0006-005",
+    "cohort": "train-batch-0006",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "82228d6e9bee578d659a5777db3c86255a514718cc6bcdc6c4b61591c9b3838b"
+  },
+  {
+    "episode_id": "train-batch-0006-006",
+    "cohort": "train-batch-0006",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "2a6a13d97a6d08061978d452ec0f2c7adfbd58796830a1508e4d88a12a4c03ac"
+  },
+  {
+    "episode_id": "train-batch-0006-007",
+    "cohort": "train-batch-0006",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "5bea21fb95722c09910a0e0619b02765645d45dfeffc1732aec1b9c44d3c70e7"
+  },
+  {
+    "episode_id": "train-batch-0007-000",
+    "cohort": "train-batch-0007",
+    "reward": 0.42857142857142855,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "d251d760cb792b07a3f87d741f7cfa6e7937c1474bf8086595437c1e6f6adb34"
+  },
+  {
+    "episode_id": "train-batch-0007-001",
+    "cohort": "train-batch-0007",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "b7b69310e96c9310fc36ae18689c4e43bee8cf2ded431fc4d1ed9b53b4b6092d"
+  },
+  {
+    "episode_id": "train-batch-0007-002",
+    "cohort": "train-batch-0007",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "9c8b3e93de8cb4211369eaf3cbc5c659bb07f2e57f28621ab625a8996f246cdf"
+  },
+  {
+    "episode_id": "train-batch-0007-003",
+    "cohort": "train-batch-0007",
+    "reward": 0.9047619047619048,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "d5ac5a5173a581f61645bc73a5875ee6c04e49befb951491bc0077901f176871"
+  },
+  {
+    "episode_id": "train-batch-0007-004",
+    "cohort": "train-batch-0007",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "527787b37911c5db577838942a32fdaec9f6c2734defb051dbb4ec6b8c0e308c"
+  },
+  {
+    "episode_id": "train-batch-0007-005",
+    "cohort": "train-batch-0007",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e27fccc8ecb7c4eeb5e4c054e0c9fdd85cd316b7c8511c928a9701b4645179d0"
+  },
+  {
+    "episode_id": "train-batch-0007-006",
+    "cohort": "train-batch-0007",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "7f5209a836f3c223c231ee7ef7bd8717a1ce0a87a545547f1a1b84dafca39266"
+  },
+  {
+    "episode_id": "train-batch-0007-007",
+    "cohort": "train-batch-0007",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e17e133d11a9ff97aa02b62729d76071c873efafac33f8ee8fdf0b9f3525a2f8"
+  },
+  {
+    "episode_id": "train-batch-0008-000",
+    "cohort": "train-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "2a05c68d839c44acfa7fe10d1ef24389dda203b7b6dd15053dd52333df5ba6b2"
+  },
+  {
+    "episode_id": "train-batch-0008-001",
+    "cohort": "train-batch-0008",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "cbc917427f77488a2bd31dae6f6e23adc3ede2f0dd05fb15e8971872a9824853"
+  },
+  {
+    "episode_id": "train-batch-0008-002",
+    "cohort": "train-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "72af4fdfbbe579ab1a0cdd7d729db84baf9097116c1aca5ef273ab65dca745a8"
+  },
+  {
+    "episode_id": "train-batch-0008-003",
+    "cohort": "train-batch-0008",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "2bc8d6edce984406c05edceabcd96af87b44b556e3cf378e0dad0734299818e8"
+  },
+  {
+    "episode_id": "train-batch-0008-004",
+    "cohort": "train-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "c8166e6653d004f39d7e6c1eaaed3ba140dfce5629f2ee60b276a200bfd453b4"
+  },
+  {
+    "episode_id": "train-batch-0008-005",
+    "cohort": "train-batch-0008",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "8cea6f95ba0151741660a8c1f27643407ef876f2a123e61b7fb4e22d321cd29d"
+  },
+  {
+    "episode_id": "train-batch-0008-006",
+    "cohort": "train-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "fa6436f8e964296c2e35de0130a5c72be901d5e8b80398a83d94c1203aeeff25"
+  },
+  {
+    "episode_id": "train-batch-0008-007",
+    "cohort": "train-batch-0008",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "53914e47445a2de6d77de716793deab92eba503e912d6a164dab5e6833d17c90"
+  },
+  {
+    "episode_id": "train-batch-0009-000",
+    "cohort": "train-batch-0009",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "69a08d61297f0990a3a5d9d0d9e85c776f3032583db6b2f4b7565a19baf4b552"
+  },
+  {
+    "episode_id": "train-batch-0009-001",
+    "cohort": "train-batch-0009",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "87774465e69c0883ad5f4b6353f94a9b2535c8e62c4972080cc653fd6d16a493"
+  },
+  {
+    "episode_id": "train-batch-0009-002",
+    "cohort": "train-batch-0009",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "4ef6533f35108bf4deff0bf23c1036580f414ff0e846202daed26949d896f3e1"
+  },
+  {
+    "episode_id": "train-batch-0009-003",
+    "cohort": "train-batch-0009",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "34d932d3ea7059b90abd24a2e6848d89f4af4346e9a00edd1968f49dbc6b9eb3"
+  },
+  {
+    "episode_id": "train-batch-0009-004",
+    "cohort": "train-batch-0009",
+    "reward": 0.8571428571428571,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "dd4c0636913d877e8b82ab1d31e794e318b6e91e60bb582fd8041586091c472e"
+  },
+  {
+    "episode_id": "train-batch-0009-005",
+    "cohort": "train-batch-0009",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "ca41ce6b7e9aa8051139ce02c0c4cd02a27fb1c7d928396d462cc59fc660aee5"
+  },
+  {
+    "episode_id": "train-batch-0009-006",
+    "cohort": "train-batch-0009",
+    "reward": 0.9047619047619048,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "9f5101f6bf90e11c47650c9cc1d0ba44268a4bf5a73b6bb2876b24d4be9bf736"
+  },
+  {
+    "episode_id": "train-batch-0009-007",
+    "cohort": "train-batch-0009",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e53d5fa24623afc0be7c786baa269f90a25c1680b2344c22a4711685886a0bf6"
+  },
+  {
+    "episode_id": "train-batch-0010-000",
+    "cohort": "train-batch-0010",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "6bb446b06f790f784e3bdb4b86972efe79a468c4d75f2e51031fbeb533a191ce"
+  },
+  {
+    "episode_id": "train-batch-0010-001",
+    "cohort": "train-batch-0010",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "871be74878d8043bb67c0bd85701efb8b9c1e19bde5019c485803c52d6200594"
+  },
+  {
+    "episode_id": "train-batch-0010-002",
+    "cohort": "train-batch-0010",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "de56501121971d2bc9f785edde0abc5796c029533a48edb175055c5dcb37d05a"
+  },
+  {
+    "episode_id": "train-batch-0010-003",
+    "cohort": "train-batch-0010",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "b8cbc0bdd60ced135a5e73306f0bcaade46fdfe090923b4508ff6bdd7f8b7a5e"
+  },
+  {
+    "episode_id": "train-batch-0010-004",
+    "cohort": "train-batch-0010",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1cfcc5926100a5a250c6ef6c632e14263fa8c2c833888ed463cbdbe0dab5d454"
+  },
+  {
+    "episode_id": "train-batch-0010-005",
+    "cohort": "train-batch-0010",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "78ca16e25366bcb69f044964c8612b7de98353ccfdbc345fc02200ad941c0a0a"
+  },
+  {
+    "episode_id": "train-batch-0010-006",
+    "cohort": "train-batch-0010",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1b5c5b64a54855d76d2fa99f5c10e0313f64d0e2872002cf32de334e596daa19"
+  },
+  {
+    "episode_id": "train-batch-0010-007",
+    "cohort": "train-batch-0010",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "a4b9683dbf8005db0b59c019e45aca4e859a27f06ac44da03edec352271ddb6f"
+  },
+  {
+    "episode_id": "train-batch-0011-000",
+    "cohort": "train-batch-0011",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "04a354775a988c7237549cd5503fdccba7799ddc490caea6a7707e1c0e920845"
+  },
+  {
+    "episode_id": "train-batch-0011-001",
+    "cohort": "train-batch-0011",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "86e43533f1cd95314c7509e2bcbbcf2d6e3512a02bf1ba5158e835aa549b71eb"
+  },
+  {
+    "episode_id": "train-batch-0011-002",
+    "cohort": "train-batch-0011",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "50fa49d22345113abd8568a05f39e757d00d95a16f0afb2937debcd5d2c73983"
+  },
+  {
+    "episode_id": "train-batch-0011-003",
+    "cohort": "train-batch-0011",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e588877127f95c3688e41db6a78bdf10c4210ce927414c97f1c3356607c2597d"
+  },
+  {
+    "episode_id": "train-batch-0011-004",
+    "cohort": "train-batch-0011",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e5b0a39082ae1247454259a3e4e996830a22d324c1d485bf58147ab82adf4a56"
+  },
+  {
+    "episode_id": "train-batch-0011-005",
+    "cohort": "train-batch-0011",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "7a39d73269fc066f3f4c4007028ff109143b09c02bd0b08c78d8e28fb115539f"
+  },
+  {
+    "episode_id": "train-batch-0011-006",
+    "cohort": "train-batch-0011",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "15dc640e9c37517ea776820c1993578bd8d753c325d80ca47562ec28e1d945a9"
+  },
+  {
+    "episode_id": "train-batch-0011-007",
+    "cohort": "train-batch-0011",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "755a0cc170e378737fed1a008a6f0b93078025f0f35332cb190d137e9d89ca8f"
+  },
+  {
+    "episode_id": "train-batch-0012-000",
+    "cohort": "train-batch-0012",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "6381fa03e824c0af14574e54acdaaa4e2e7f5615e71678e5be0206cdc55e8131"
+  },
+  {
+    "episode_id": "train-batch-0012-001",
+    "cohort": "train-batch-0012",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "03f44c84117d29c6c2b2eb06f47dde3425dc8ba3cba003788197b7985f907c64"
+  },
+  {
+    "episode_id": "train-batch-0012-002",
+    "cohort": "train-batch-0012",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "9e719d9da807e27816d1cf8c6612961bfb065262aba0e49f372a5457169ae69e"
+  },
+  {
+    "episode_id": "train-batch-0012-003",
+    "cohort": "train-batch-0012",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "120ee80e7dabbe77d6c224f285b9f79d82927809b2b785795c918e7778ee208d"
+  },
+  {
+    "episode_id": "train-batch-0012-004",
+    "cohort": "train-batch-0012",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "2ff534b8475ddf8d3603ad6d55f6ed69cf6ddb0869d7a672da082ffb71a60dc2"
+  },
+  {
+    "episode_id": "train-batch-0012-005",
+    "cohort": "train-batch-0012",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "fc21b74328e7bb3c7a1b972ccae0052898544e62202833807954844b5b5aadeb"
+  },
+  {
+    "episode_id": "train-batch-0012-006",
+    "cohort": "train-batch-0012",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "eb818550a36ea9a761fbe8da72c4a3e086cfba3e509644da1bd77f4f04bf8d6f"
+  },
+  {
+    "episode_id": "train-batch-0012-007",
+    "cohort": "train-batch-0012",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "133a9adbc53c96d1a885832d5d788320882a12a6d78b57c38d872d8d3e638ef9"
+  },
+  {
+    "episode_id": "train-batch-0013-000",
+    "cohort": "train-batch-0013",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e8e419772de914afc649e4fa4d09890b1a5dcf47b6236a5fd42467b17706eb78"
+  },
+  {
+    "episode_id": "train-batch-0013-001",
+    "cohort": "train-batch-0013",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "0ad4308660be330d1afa2a159d99fbabfe4e9422d37c366eb67185107df66383"
+  },
+  {
+    "episode_id": "train-batch-0013-002",
+    "cohort": "train-batch-0013",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e0eb7fa7be05fe47f4d6ee2bdcaeba370aa716599c74fcbf216d3e8fa735b2e1"
+  },
+  {
+    "episode_id": "train-batch-0013-003",
+    "cohort": "train-batch-0013",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "019df73397fc4457dda12cc44872f9708521c03a5c2b24555d08598e305b1bd2"
+  },
+  {
+    "episode_id": "train-batch-0013-004",
+    "cohort": "train-batch-0013",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e64e32944e54e571ed6763a86c9684dcaa6342b43286ef1c5d8995cfee1dc06d"
+  },
+  {
+    "episode_id": "train-batch-0013-005",
+    "cohort": "train-batch-0013",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "c1cf0b31da556a199aa8188c87bb75b0b09b5ca9f4609737589aca9cc294ea6e"
+  },
+  {
+    "episode_id": "train-batch-0013-006",
+    "cohort": "train-batch-0013",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "febaac5012f3daf968dadaa4a4480b1187811314cd5eae20ce0a9865229b713f"
+  },
+  {
+    "episode_id": "train-batch-0013-007",
+    "cohort": "train-batch-0013",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "c461f4c4f25d640778965bb382b7c614819cc587f779b9d7ea09d776b2e82039"
+  },
+  {
+    "episode_id": "train-batch-0014-000",
+    "cohort": "train-batch-0014",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "c033c03761e0ab399ccfe29818e3ff853b83e9a7eb7ef23c2490323f49b645ea"
+  },
+  {
+    "episode_id": "train-batch-0014-001",
+    "cohort": "train-batch-0014",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "aa96596dea44681f9f97f91ce0977e533680ac47a1cbb737808260815c95f913"
+  },
+  {
+    "episode_id": "train-batch-0014-002",
+    "cohort": "train-batch-0014",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "5e1a41cf12dffd1ba9b4b5bc2c93898a2b53f47d1d523923d60e8063272c7d17"
+  },
+  {
+    "episode_id": "train-batch-0014-003",
+    "cohort": "train-batch-0014",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "fb383287f2d2082a1bde6be38dae076e6e4575d2b642694608535671bc656916"
+  },
+  {
+    "episode_id": "train-batch-0014-004",
+    "cohort": "train-batch-0014",
+    "reward": 0.6666666666666666,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1c6bfd525973756b5816cd3c87ee6880116c56f1b47909b61f2b4e09b6bce73e"
+  },
+  {
+    "episode_id": "train-batch-0014-005",
+    "cohort": "train-batch-0014",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "de1dc93476f2c0de68fa63ebde005a8e8ba736676c537b5ca833a46bbdb83436"
+  },
+  {
+    "episode_id": "train-batch-0014-006",
+    "cohort": "train-batch-0014",
+    "reward": 0.6666666666666666,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "eb86e2a4b6b6c05a8eaa3d82a3aa4742760ef17cf7935e8e112608321ed8dd59"
+  },
+  {
+    "episode_id": "train-batch-0014-007",
+    "cohort": "train-batch-0014",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "f342d89c02c6364e069a0db25d26d1d101a291f5bd9623bc6c36070d133a3519"
+  },
+  {
+    "episode_id": "train-batch-0015-000",
+    "cohort": "train-batch-0015",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "fa92d62793a64b9c0e7274c41caeb7d530b918c4dc4c93c703da5bfd503cea94"
+  },
+  {
+    "episode_id": "train-batch-0015-001",
+    "cohort": "train-batch-0015",
+    "reward": 0.8571428571428571,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "3bfefd596218da171e4cbe1eab55364fccce1fb3179d1dc0c805f44bf7f9a7ac"
+  },
+  {
+    "episode_id": "train-batch-0015-002",
+    "cohort": "train-batch-0015",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "43cbad6067a8850c0c5f3c94b4e2a434e2ae255116f9d99fb9be3ba4b52514ae"
+  },
+  {
+    "episode_id": "train-batch-0015-003",
+    "cohort": "train-batch-0015",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "4539ffa7184353fbe9044037450260a169b2396bc65b0a395074f3d64ce478f8"
+  },
+  {
+    "episode_id": "train-batch-0015-004",
+    "cohort": "train-batch-0015",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "4951955df903498737675bd58eb87d9c440eb7acef6fbb11b929749a38c6d848"
+  },
+  {
+    "episode_id": "train-batch-0015-005",
+    "cohort": "train-batch-0015",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "246d0cbf5ee277d2a77dac9b976575e1ebad5fac388472e0576fbe3fadd7eee3"
+  },
+  {
+    "episode_id": "train-batch-0015-006",
+    "cohort": "train-batch-0015",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "4722e565418859d14c16a8fa92943aba5980c8384e37baf60a65b3d7d63bb1bd"
+  },
+  {
+    "episode_id": "train-batch-0015-007",
+    "cohort": "train-batch-0015",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "134df97978557af978265ef853bc9cfc8b9d3e9bb5922564d89edd0d7bf9e31c"
+  },
+  {
+    "episode_id": "train-batch-0016-000",
+    "cohort": "train-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "3a146a6e89b0625a5dbb63731f780edc1208361228ddc9152b982a8b99c3f9b3"
+  },
+  {
+    "episode_id": "train-batch-0016-001",
+    "cohort": "train-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e80c8c546fa90e2aede1e733ca3767c532026a4ccc62dbb17d27b3dbd56cea66"
+  },
+  {
+    "episode_id": "train-batch-0016-002",
+    "cohort": "train-batch-0016",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1078ab1c4ecdf3ade59ac101d25441641a9c778a74e4b17717c5468f1d95844d"
+  },
+  {
+    "episode_id": "train-batch-0016-003",
+    "cohort": "train-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "a2cb9a307a2e08a62ca0b576c6638c2bad4236f14b3823352cdeb4a5f120f78a"
+  },
+  {
+    "episode_id": "train-batch-0016-004",
+    "cohort": "train-batch-0016",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "4482766725f0d3c0a62d74de473f2ba975d1be8b14c8de64c7ec85832dd9e46f"
+  },
+  {
+    "episode_id": "train-batch-0016-005",
+    "cohort": "train-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "08c4be2f9df540334e3e8db89b82480bcd26346bb37ba86add003857350e432b"
+  },
+  {
+    "episode_id": "train-batch-0016-006",
+    "cohort": "train-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "6a591928ee3f0f47350da4a463628adf6cda9bcbcb7e0fa8a8b948c4ffb5a332"
+  },
+  {
+    "episode_id": "train-batch-0016-007",
+    "cohort": "train-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "afadea5fb97a3bce7a137bf0668ebcc7c6a2c78839a50389acb92d4a561154c2"
+  },
+  {
+    "episode_id": "eval-batch-0000-000",
+    "cohort": "eval-batch-0000",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "07e5bc3f72a40b9ca4a957f1e66b53f134d4f40eb6a501a156f12ac14f6cb659"
+  },
+  {
+    "episode_id": "eval-batch-0000-001",
+    "cohort": "eval-batch-0000",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1b57ace99e1458e92a8a9cb43774f49686bab38f3dfa1a71b22eea9bb5d50caa"
+  },
+  {
+    "episode_id": "eval-batch-0000-002",
+    "cohort": "eval-batch-0000",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "73889b3edbf391e05716764bf22088e7c5e98618e5c6cf00f0899307bfff1973"
+  },
+  {
+    "episode_id": "eval-batch-0000-003",
+    "cohort": "eval-batch-0000",
+    "reward": 0.42857142857142855,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "6cf00481dc318ce539c30d473a39264516b2911ca411992fae4d9ad1b445ce9c"
+  },
+  {
+    "episode_id": "eval-batch-0000-004",
+    "cohort": "eval-batch-0000",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "74509425b2d24108aa0b67088b96ef79708153ce9e40d0f3dc051f1e2348b09f"
+  },
+  {
+    "episode_id": "eval-batch-0000-005",
+    "cohort": "eval-batch-0000",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "17b7b12d2dbed5e8f1ed7352fbf5bd09d2830026cccf86f09299e633064e21e0"
+  },
+  {
+    "episode_id": "eval-batch-0000-006",
+    "cohort": "eval-batch-0000",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "34f06a32b1009cd8b6b9fff9d6a85daef9726f74ae0bfaf1785e045c5865f0fd"
+  },
+  {
+    "episode_id": "eval-batch-0000-007",
+    "cohort": "eval-batch-0000",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "c96e6fa9221e1e94161f347a4db53dee2e7743c37f3fa57643cc97b5851b0915"
+  },
+  {
+    "episode_id": "eval-batch-0000-008",
+    "cohort": "eval-batch-0000",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "74eb294df2534671e5eebda5483ad94521bf5cbf432f60d644e5cf7a34db0aba"
+  },
+  {
+    "episode_id": "eval-batch-0000-009",
+    "cohort": "eval-batch-0000",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "fd67ac1bbd1df8024903d344bf4068359d871c63024fd22ea8ef4db574f4e7bb"
+  },
+  {
+    "episode_id": "eval-batch-0004-000",
+    "cohort": "eval-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "c66423015393669fc24ca97a0fdc9161919c7bb8b800a4e93ed7fbb6e54c0454"
+  },
+  {
+    "episode_id": "eval-batch-0004-001",
+    "cohort": "eval-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "c84925f34df367fcd898e1e8a90864e7056bfa3a205b43b33fb0a417d2a4969d"
+  },
+  {
+    "episode_id": "eval-batch-0004-002",
+    "cohort": "eval-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "544644f1cb6c36f8d8db6dce8afc94c6bdc9bba133337b60a4f2d826424e84d6"
+  },
+  {
+    "episode_id": "eval-batch-0004-003",
+    "cohort": "eval-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "82fe626f30ceadea570f6367aa5c3afc5156a07f371a0c63ea60c4f9038a1f31"
+  },
+  {
+    "episode_id": "eval-batch-0004-004",
+    "cohort": "eval-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "0472e9309f8d1e9b582bb2ac053af7688b00d85b6789cd77e7f985169df78310"
+  },
+  {
+    "episode_id": "eval-batch-0004-005",
+    "cohort": "eval-batch-0004",
+    "reward": 0.8571428571428571,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "a16aeb5229ddaabcc2f9fd1f2494c3647546af14a7dd38281c0b2960da4508f4"
+  },
+  {
+    "episode_id": "eval-batch-0004-006",
+    "cohort": "eval-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "439c5e2294f5455cd19af150e6984cd2648150ab0dee65014279576fce07cdbb"
+  },
+  {
+    "episode_id": "eval-batch-0004-007",
+    "cohort": "eval-batch-0004",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "b8acfef09168bee64521300ff86b82083309f1af8071e117fdc667e4f56055fc"
+  },
+  {
+    "episode_id": "eval-batch-0004-008",
+    "cohort": "eval-batch-0004",
+    "reward": 0.9047619047619048,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "bb2f0eb3834781a33db9e3659c204106df8a2e15f662ed8dc872eb60b1ef0236"
+  },
+  {
+    "episode_id": "eval-batch-0004-009",
+    "cohort": "eval-batch-0004",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "49ef1e6dabb56994e9ce94f57d03d71ad13552fbdb2f660ecf9ee93c58f44aa7"
+  },
+  {
+    "episode_id": "eval-batch-0008-000",
+    "cohort": "eval-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "179bbf63af444e98ac351d2df1989b5ab9993fd93f8956a9c63efc01a6386fe4"
+  },
+  {
+    "episode_id": "eval-batch-0008-001",
+    "cohort": "eval-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "d82aa1ab83a0cf182833184a3341eb405398f8ff59e256e75c577e250eec8dc9"
+  },
+  {
+    "episode_id": "eval-batch-0008-002",
+    "cohort": "eval-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "3652e00380d1fcabf48ceaa292830600274de0ca234bb70deb763afb10a8a30c"
+  },
+  {
+    "episode_id": "eval-batch-0008-003",
+    "cohort": "eval-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "33d7333bcaba9ee560b574a803ae556ee59ccd2aa99badc0b341c21a3007b0b7"
+  },
+  {
+    "episode_id": "eval-batch-0008-004",
+    "cohort": "eval-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "47f3221ef35c802bab786c7088a01c176fb7d4d04534e09f9174ca04f7564924"
+  },
+  {
+    "episode_id": "eval-batch-0008-005",
+    "cohort": "eval-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "b6c5946b03795481b40d3748e68c68a9db7dcbaa573c891c5c4dfab184229f66"
+  },
+  {
+    "episode_id": "eval-batch-0008-006",
+    "cohort": "eval-batch-0008",
+    "reward": 0.0,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": false,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": true,
+    "original_episode_sha256": "f904544f9db02f48df5516a3008f9732de62d8d19f3566e1d9614d297ed57c03"
+  },
+  {
+    "episode_id": "eval-batch-0008-007",
+    "cohort": "eval-batch-0008",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "037b4fc03c5fb5d06feb4287106e7e8415f7fe797d8ce0496dca14662c028943"
+  },
+  {
+    "episode_id": "eval-batch-0008-008",
+    "cohort": "eval-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "283746a9ea50d8a4018be5c69277ee2111eb1a0712847b677d168aaa5a7b51d8"
+  },
+  {
+    "episode_id": "eval-batch-0008-009",
+    "cohort": "eval-batch-0008",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "db77cd021e1e13646dfb79d5fd659ca1c267c8c4ef1fd66bee72b11f16faf907"
+  },
+  {
+    "episode_id": "eval-batch-0012-000",
+    "cohort": "eval-batch-0012",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "7532de21afa4a1ee6357ec9afe2012ad9abfb068e4b08356e3f97984c97a726c"
+  },
+  {
+    "episode_id": "eval-batch-0012-001",
+    "cohort": "eval-batch-0012",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1556521afca892cf7d60be17fd96858fabd301fa994de2f98d231d945e8f8331"
+  },
+  {
+    "episode_id": "eval-batch-0012-002",
+    "cohort": "eval-batch-0012",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "a5ba4b73cde84b731f9ae066fbd62113b3020818e0df68fd885aced8a1f863d0"
+  },
+  {
+    "episode_id": "eval-batch-0012-003",
+    "cohort": "eval-batch-0012",
+    "reward": 0.8571428571428571,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "be3abeb86d86d6ef721d2f4155a55ab4d1f29bea1bfca8ea91cc460385ab1e12"
+  },
+  {
+    "episode_id": "eval-batch-0012-004",
+    "cohort": "eval-batch-0012",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e159bca69c7842e41e73daa0326f368b07d97bf603b177a87f096477d85a6186"
+  },
+  {
+    "episode_id": "eval-batch-0012-005",
+    "cohort": "eval-batch-0012",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "0215ccaeeca2a3c10dde14993cc7e7c03acc2b1f1b8aed4a25e151900ebfaf7f"
+  },
+  {
+    "episode_id": "eval-batch-0012-006",
+    "cohort": "eval-batch-0012",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "908e334c1ea228e7997c679ef8df9b2622d3f66d3444742f5f6e6c57c507d334"
+  },
+  {
+    "episode_id": "eval-batch-0012-007",
+    "cohort": "eval-batch-0012",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "97562cfe9a2e9f8b523450b2e11ffb1045e7d37658c9163871cc0bbea28159ec"
+  },
+  {
+    "episode_id": "eval-batch-0012-008",
+    "cohort": "eval-batch-0012",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "953e15096c90e89f2781ebafe0bd68a1d9bbaee9f32d71de70c99a6f7d181d2a"
+  },
+  {
+    "episode_id": "eval-batch-0012-009",
+    "cohort": "eval-batch-0012",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "73e05357f9722e7ababecc43ea5353d466f3e75fc38fe8c796768eede79b9a29"
+  },
+  {
+    "episode_id": "eval-batch-0016-000",
+    "cohort": "eval-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "a35334b82c93b5b043965cf23bb0c5a590200d1492e757bd19fe108748d19b24"
+  },
+  {
+    "episode_id": "eval-batch-0016-001",
+    "cohort": "eval-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "9f0ad57bb6a42dfc0c8136cb22da1aeaa7123a153e1b14d1584d94f8b0398eb2"
+  },
+  {
+    "episode_id": "eval-batch-0016-002",
+    "cohort": "eval-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "ed7cc3bd4c6c98fc9fa51bd544f31406ededf43c12aaef0dacb152d1e3b4d689"
+  },
+  {
+    "episode_id": "eval-batch-0016-003",
+    "cohort": "eval-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "fa6c85007ba831c784c2e981782f05355d21f8119c683a9f5f29174c64b31e67"
+  },
+  {
+    "episode_id": "eval-batch-0016-004",
+    "cohort": "eval-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "365f0d2017cf7c2cee5f3cbddc0f1b4126eccb935d1ede7b8fd5c2ce757847de"
+  },
+  {
+    "episode_id": "eval-batch-0016-005",
+    "cohort": "eval-batch-0016",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "9087b5f08bb86602568647e2ace615177a602f5e5ff28e07ddd3aa577a4e6daf"
+  },
+  {
+    "episode_id": "eval-batch-0016-006",
+    "cohort": "eval-batch-0016",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "7cbace55fa3a509af9d3338c6a446a8092f9ad04227f88499c690b7748e0daca"
+  },
+  {
+    "episode_id": "eval-batch-0016-007",
+    "cohort": "eval-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1a894578805e54fa33de2dc2e905095fc3e577af06879861fcd09fafd6643b40"
+  },
+  {
+    "episode_id": "eval-batch-0016-008",
+    "cohort": "eval-batch-0016",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "f799f3449f7287718eca66d54a3044cde1506c216108acd9fa78756afa163ce9"
+  },
+  {
+    "episode_id": "eval-batch-0016-009",
+    "cohort": "eval-batch-0016",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "a256915dfe31ab193f562854d614ff65e2cc1de83d6bec6241f0f04f0a8bd791"
+  },
+  {
+    "episode_id": "final-base-000",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "951c18cf58cecb6ce1aa1f70fdf6d25de3e79b32c288c83801fe8dcc1cef9912"
+  },
+  {
+    "episode_id": "final-base-001",
+    "cohort": "final-base",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "3382e36aa405affa8c26e8c73cb8ce08de8c4e268bd456df115c903370dc1d45"
+  },
+  {
+    "episode_id": "final-base-002",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "0e9835cfb8b38703d1187b4f4894edfe55fc2285d6be595926b955022fbab18f"
+  },
+  {
+    "episode_id": "final-base-003",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "4de29f55c665745978ed12811269c02c1fcd4d4e1bc675a2cee814b614015e4c"
+  },
+  {
+    "episode_id": "final-base-004",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "f6bd5c3b21b560a619bdefbf6dfbb60b58534453373184af4fffe2073a279618"
+  },
+  {
+    "episode_id": "final-base-005",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "e9dad4369f1ed68798a7b425f927b50385c48f7c03cdfff416411b5fe21ec6ce"
+  },
+  {
+    "episode_id": "final-base-006",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "64c846ef41faf9a7a12194d3db2045133506af2b7562f4e11056fd0f47811672"
+  },
+  {
+    "episode_id": "final-base-007",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "5cd0764f4c3895271f5afaac762aaed641d306277cd8906af26a3da2dd9ee4dd"
+  },
+  {
+    "episode_id": "final-base-008",
+    "cohort": "final-base",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "ab3e34fe3567361793e84b045cff46e11fa9c89ffec1ea03e98f495035f84e57"
+  },
+  {
+    "episode_id": "final-base-009",
+    "cohort": "final-base",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "46f6e0af30906dc03e4aa56bd4c5df26d28ef8e9ffd7845b298d8cccdf5349b2"
+  },
+  {
+    "episode_id": "final-base-010",
+    "cohort": "final-base",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "5be8623a16b9aea69739cf668e1446ec2ca4284d9f14cdabe5ab08e3191d9fbc"
+  },
+  {
+    "episode_id": "final-base-011",
+    "cohort": "final-base",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "a995d088731f4e1f7d7a47b6798853fdd7bcbb1f31a2b6562f15b212d4148d37"
+  },
+  {
+    "episode_id": "final-base-012",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "82b3c1aa22988e1605bac75b90e86503491885919206b392a2b9878a01f850ff"
+  },
+  {
+    "episode_id": "final-base-013",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "02b9849cc6133454c20cd0143f609af6d596e6c1b3ea828fe79e944868aa76a3"
+  },
+  {
+    "episode_id": "final-base-014",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "ea330a077f421f7cd14de1511bb83c226ab6c6b0e1e2df346ddf105885a67643"
+  },
+  {
+    "episode_id": "final-base-015",
+    "cohort": "final-base",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "804f0e4e43b36b6c47f48a8ed546c1b09fd2fdc7600a33b36bf449817b4754bc"
+  },
+  {
+    "episode_id": "final-base-016",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "05df5853b7f0286d39f9aa46396a37bdb8527114da0c3f83e2291f90ccd1c0b0"
+  },
+  {
+    "episode_id": "final-base-017",
+    "cohort": "final-base",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "20f692cecb9a88abe6c17946891b0686992bab0c3ce7435cf9f17b2aa6273cf9"
+  },
+  {
+    "episode_id": "final-base-018",
+    "cohort": "final-base",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "15fe518d49dbaba6e0ef15be862425bf52509f216e628ec82ee2b83a7206ef1d"
+  },
+  {
+    "episode_id": "final-base-019",
+    "cohort": "final-base",
+    "reward": 0.8571428571428571,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "60a34b071275846329f303608025e6717db411aa3890b694abcb9edd322e16d0"
+  },
+  {
+    "episode_id": "final-final-000",
+    "cohort": "final-final",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "0a79f40881a5356545b932f5c63004bf42b33ba2f30782d74e57808bbea54830"
+  },
+  {
+    "episode_id": "final-final-001",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "7f984211694d92eb99ba28e9f55732d01e72d9fff015730ffebd8305dbf4e1d4"
+  },
+  {
+    "episode_id": "final-final-002",
+    "cohort": "final-final",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "ce6a2eb47984cee88f367a7bed7f60dc4a5b7098ae0280859b15fbf723ec70c1"
+  },
+  {
+    "episode_id": "final-final-003",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "cc9d02506f57b452b1edc0a2670aae11468bd22ff42fdf73e7a3990264656aee"
+  },
+  {
+    "episode_id": "final-final-004",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "1fdac1d3fc1a536521a811b39ecfddea008f739a6e470ed6810fd1c0564ab361"
+  },
+  {
+    "episode_id": "final-final-005",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "d0fa2fa1064a19380b61b91516cedd38bd40afda9752157b2996a3bdea608c66"
+  },
+  {
+    "episode_id": "final-final-006",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "803d8ac55b68791ab630bef1156b323ecb9e61b806f57dfb39010b1f39ceb0a5"
+  },
+  {
+    "episode_id": "final-final-007",
+    "cohort": "final-final",
+    "reward": 0.9047619047619048,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "a9accd584751c97d96cdfee76a87894e525cd2203ab3a365e69970e14472c0c1"
+  },
+  {
+    "episode_id": "final-final-008",
+    "cohort": "final-final",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "20eb67122d0f9ea134214753e53be60ef0fa3d68e2b46ad4c834db0410341bec"
+  },
+  {
+    "episode_id": "final-final-009",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "48bf87fc7e0304af7bca4ca49e2cbccdf2ec34fefa1509f6650b23e96d86f8f7"
+  },
+  {
+    "episode_id": "final-final-010",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "eed700892519c1927f537b7c20cbbb726945c34e25b610c05d16de8dd9eeb276"
+  },
+  {
+    "episode_id": "final-final-011",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "9791a4832c9f83f1d9efc90a6b9b49a173134e722a06908588cd216ea5ff8d95"
+  },
+  {
+    "episode_id": "final-final-012",
+    "cohort": "final-final",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "b4c52153b9c1e094b0185ecbdc563b557aa686e6bcc30e49f0dce3383cdb7fe9"
+  },
+  {
+    "episode_id": "final-final-013",
+    "cohort": "final-final",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "2a486c8baedd9607f305058ea7e2e79532a7b4f08a83ed8df132ed8943c02cf8"
+  },
+  {
+    "episode_id": "final-final-014",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "3efd3f31bcc89ce7c4a75cbecf636d15d8c6b15e43c1040996ac19f1068c0165"
+  },
+  {
+    "episode_id": "final-final-015",
+    "cohort": "final-final",
+    "reward": 0.8571428571428571,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "020d3fb1a694ac4a97edd9a9e9e5532f621293ea3b377dfd5e7798998f2e09ee"
+  },
+  {
+    "episode_id": "final-final-016",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "fb8b1663a33ce2b2f6f3cd893720078aab03aa77bf3989e5d4ce02e47f92c555"
+  },
+  {
+    "episode_id": "final-final-017",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "988dfb4c8265bedf511db51f1cce49af6e733d6e56bdcced70a231633fc3bee2"
+  },
+  {
+    "episode_id": "final-final-018",
+    "cohort": "final-final",
+    "reward": 0.5238095238095238,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "f8700793762ca5f7221c4524ade2449e395a9198ac436b5ee418b2aa98450312"
+  },
+  {
+    "episode_id": "final-final-019",
+    "cohort": "final-final",
+    "reward": 0.5714285714285714,
+    "previous_srdt": false,
+    "official_srdt": 0.0,
+    "official_srdel": true,
+    "end_to_end_success": false,
+    "correct_target_models": 0,
+    "required_target_models": 1,
+    "target_success": {
+      "countries": false
+    },
+    "known_policy_zero": false,
+    "original_episode_sha256": "fc4a7f8c088be0bcc1598c43a5131b2e87635260acb1e2cb3105f5e6e5677b42"
+  }
+]
