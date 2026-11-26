@@ -356,6 +356,5 @@
   "elapsed_seconds": 11642.204855918884,
   "final_checkpoint_update": 15,
   "final_selection": "last_effective_update",
-  "cloud_checkpoint_uris": "Private archive only; this export is metadata, not binary weights",
-  "costs": "Not measured; expense accounting was disabled. No new model experiment was executed for release preparation."
+  "cloud_checkpoint_uris": "Private archive only; this export is metadata, not binary weights"
 }

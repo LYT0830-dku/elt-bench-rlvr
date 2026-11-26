@@ -72,7 +72,7 @@ The supplied pipeline is an authentic **imperfect model submission**, with 12/21
 
 Each batch samples eight independent rollouts from one checkpoint. Cookbook computes `A_i = R_i - mean(R_group)` and assembles masked training data. One importance-sampling forward/backward and Adam step updates the model. Learning rate is 1e-5, LoRA rank 16 and temperature 0.8 in the supplied examples. Equal-reward groups complete without an ineffective update. Every effective update saves training-state and sampler checkpoints.
 
-`examples/human_resources.yaml` selects Qwen/Qwen3.6-35B-A3B and one eight-rollout batch, with evaluation disabled. Prepare its assets using the same commands with task `human_resources` and output `data/tasks/human-resources-native`. A supported fresh model needs no historical checkpoint. These commands initiate new work only when the operator runs them; no new paid experiment was started for this release.
+`examples/human_resources.yaml` selects Qwen/Qwen3.6-35B-A3B and one eight-rollout batch, with evaluation disabled. Prepare its assets using the same commands with task `human_resources` and output `data/tasks/human-resources-native`. A supported fresh model needs no historical checkpoint. These commands initiate new work only when the operator runs them; no new experiment was started for this release.
 
 ## Evaluation and reward
 
@@ -103,7 +103,7 @@ Cars final SRDEL was 100% and SRDT/whole-pipeline success 0% for both policies. 
 
 Only the two task/model combinations above have the reported real validation. Other compatible tasks/models require individual qualification; all benchmark tasks and Tinker models have not been validated. Equal rewards may legitimately prevent an update. Native loading changes the available tools relative to the original environment. SDK seeds do not guarantee deterministic service behavior, and its public optimizer response does not expose a request ID.
 
-Token limits bound execution; **no dollar-budget enforcement or storage-quota preflight is implemented**. Actual costs were not measured for these runs. Learned weight objects remain in the authorized Tinker account; published checkpoint metadata is not a local binary export. Source licensing is not selected, and benchmark assets are fetched separately. See [third-party notices](THIRD_PARTY_NOTICES.md).
+Learned weight objects remain in the authorized Tinker account; published checkpoint metadata is not a local binary export. Source licensing is not selected, and benchmark assets are fetched separately. See [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Reproduction instructions
 

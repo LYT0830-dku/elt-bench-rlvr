@@ -25,11 +25,11 @@ The run completed 16 attempted/completed batches. Batch 13 had identical rewards
 
 The observed +1.67 percentage points is not evidence of a statistically significant improvement. No complete pipeline was solved in either final cohort. The final policies use matching tasks, prompts, tools, temperature, seed plans and execution limits; the SDK does not guarantee strict determinism. Initial process evaluation (n=10) is not substituted for the independent initial-policy final cohort (n=20).
 
-Actual limits were 200 turns, 64000 context tokens, 49152 maximum response tokens and 262144 generated tokens per episode. The run took approximately 3 hours 14 minutes including interruption/recovery. All rewards and advantages are in `evidence/cars/rollouts.csv` and `training-batches.json`. Curves include all batches and evaluation cohorts, including decreases.
+Each rollout allowed a maximum of 200 turns; the recorded configuration preserves the full execution settings. The run took approximately 3 hours 14 minutes including interruption/recovery. All rewards and advantages are in `evidence/cars/rollouts.csv` and `training-batches.json`. Curves include all batches and evaluation cohorts, including decreases.
 
 ## Human Resources compatibility verification
 
-Actual model: **Qwen/Qwen3.6-35B-A3B**, using the string-preserving native XML renderer. The task has two target models and 96 required cells. This was one batch of eight rollouts with 80 turns, 64000 context tokens, 16384 maximum response tokens and 262144 generated tokens per episode. Evaluation was explicitly disabled; configuration fields for disabled evaluations are not executed samples.
+Actual model: **Qwen/Qwen3.6-35B-A3B**, using the string-preserving native XML renderer. The task has two target models and 96 required cells. This was one batch of eight rollouts with a maximum of 80 turns per rollout. Evaluation was explicitly disabled; configuration fields for disabled evaluations are not executed samples.
 
 | Rollout index | Correct / required cells | Reward | Advantage |
 |---:|---:|---:|---:|
@@ -42,7 +42,7 @@ Actual model: **Qwen/Qwen3.6-35B-A3B**, using the string-preserving native XML r
 | 6 | 57/96 | 0.593750 | 0.175781 |
 | 7 | 89/96 | 0.927083 | 0.509115 |
 
-Five episodes submitted actual scoring results; indices 0, 2 and 5 reached the turn limit. The batch mean was 0.417969. A confirmed effective update used 258426 training input tokens, 97955 nonzero-advantage tokens and 10 training datums. Gradient norm was 2977.919189 and loss sum 765.677002. Training-state and sampler checkpoints were saved. A checkpoint-only recovery restored optimizer state and saved the missing sampler without repeating the optimizer.
+Five episodes submitted actual scoring results; indices 0, 2 and 5 reached the turn limit. The batch mean was 0.417969. A confirmed effective update used 10 training datums. Gradient norm was 2977.919189 and loss sum 765.677002. Training-state and sampler checkpoints were saved. A checkpoint-only recovery restored optimizer state and saved the missing sampler without repeating the optimizer.
 
 Official SRDEL was 4/8 (50%). After correction, SRDT is 2/16 target models (12.5%): `positions` passed for indices 4 and 7; `locations` did not. Whole-pipeline success remains 0%. No independent initial/final evaluation was run. This demonstrates execution and a real update across a different model and task, not improved policy quality or universal task/model support. Its different limits also preclude a controlled model-quality comparison with Cars.
 
@@ -52,4 +52,4 @@ Preparatory cancelled attempts and a prior native XML conversion failure remain 
 
 Original reports are immutable. Release 0.6.1 separately reaggregated pinned Stage 2 logs for all 218 selected cars and eight Human Resources episodes. Cars had no numerical change. Two Human Resources episode metrics changed from false/0 to 0.5; the cohort changed from 0 to 0.125. Reward, advantages, optimizer receipts, checkpoints and complete-pipeline success did not change. See `evidence/metric-corrections/`.
 
-Actual costs were not measured because expense accounting was disabled. Token counters are execution evidence, not dollar charges. The public evidence is allowlisted and sanitized; full raw records, original paths and cloud checkpoint identities remain in the private archive. Learned cloud weights are not bundled as local binaries.
+The public evidence is allowlisted and sanitized; full raw records, original paths and cloud checkpoint identities remain in the private archive. Learned cloud weights are not bundled as local binaries.

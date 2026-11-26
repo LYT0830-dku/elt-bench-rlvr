@@ -15,7 +15,7 @@ Release 0.6.1 preserves the unmodified official comparison code and fixes only i
 
 ## Formal Cars protocol
 
-Pinned official revision: `e2e377766604f61930165f20d4fcab8400a3e997`. Original Inkling-2-Mini base weights, 16 batches of eight, importance_sampling, Cookbook centered advantages, Adam, LR 1e-5, rank 16 and one substep. Temperature 0.8, top_p 1, top_k -1 and concurrency 8. Limits: 200 turns, 64000 context tokens, 49152 response tokens and 262144 generated tokens per episode.
+Pinned official revision: `e2e377766604f61930165f20d4fcab8400a3e997`. Original Inkling-2-Mini base weights, 16 batches of eight, importance_sampling, Cookbook centered advantages, Adam, LR 1e-5, rank 16 and one substep. Temperature 0.8, top_p 1, top_k -1 and concurrency 8. Each rollout allows a maximum of 200 turns. The recorded configuration preserves the remaining execution settings.
 
 Process evaluation uses ten rollouts before training and after batches 4, 8, 12 and 16. Independent final evaluation uses 20 initial-policy and 20 last-effective-policy rollouts with root seed 200000000. The model selection rule is fixed to the last effective update, not the best intermediate result. Tasks, prompts, tools, temperature, limits and evaluator match. Supplying SDK seeds does not establish deterministic provider behavior.
 
@@ -23,7 +23,7 @@ Each cohort records mean cell accuracy, population standard deviation, minimum, 
 
 ## Compatibility protocol
 
-The Human Resources/Qwen3.6-35B-A3B example uses one batch of eight and `evaluation.enabled: false`, 80 turns, 64000 context tokens and 16384 response tokens. It has no initial, process or independent final evaluation. Its eight training outcomes and real update support an execution/compatibility claim only.
+The Human Resources/Qwen3.6-35B-A3B example uses one batch of eight, sets `evaluation.enabled: false` and allows a maximum of 80 turns per rollout. It has no initial, process or independent final evaluation. Its eight training outcomes and real update support an execution/compatibility claim only.
 
 ## Historical reaggregation
 

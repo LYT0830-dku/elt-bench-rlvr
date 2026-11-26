@@ -47,4 +47,4 @@ The actor cannot execute arbitrary shell/Python, providers or dbt macros/hooks. 
 
 `elt_rl.native_qualification.qualify_sources(task, output, warehouse=False)` is an optional operator API for source type/value fidelity and simultaneous source isolation. `warehouse=True` additionally uses authorized warehouse round trips. It is an engineering operation, not model training data or an automatic replay prerequisite.
 
-Do not include keys, credentials, dbt profiles, official driver destination credentials or cloud checkpoint access addresses in release packages. The application performs no quota preflight or expense accounting and does not change billing plans. Token/context/time limits remain execution controls.
+Do not include keys, credentials, dbt profiles, official driver destination credentials or cloud checkpoint access addresses in release packages.

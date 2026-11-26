@@ -73,7 +73,7 @@ One batch collects the configured group from the current checkpoint, computes Co
 
 The durable protocol state distinguishes attempted batches, completed batches and effective updates. Optimizer dispatch is journaled before the API request. Unknown outcomes block automatic retry. Resume requires the latest confirmed checkpoint, matching inputs/source, matching sampling policy and resolved resources. Partial evaluation recovery preserves verified completed slots and archives cancelled attempts, then fills only missing original indices with the original checkpoint and seed plan. Evaluation trajectories are excluded from optimization.
 
-The run-directory ownership lock prevents duplicate controllers. Token/context/time limits bound execution. These controls protect correctness and shared-server isolation.
+The run-directory ownership lock prevents duplicate controllers. Context and time limits bound execution. These controls protect correctness and shared-server isolation.
 
 ## Model adapter and experiment configuration
 
@@ -81,7 +81,7 @@ The run-directory ownership lock prevents duplicate controllers. Token/context/t
 
 The `qwen3_5_strings` renderer uses the pinned Cookbook native XML framing validator and preserves every declared string argument as text. Valid JSON file contents remain strings. Duplicate parameters, malformed frames, multiple calls and extra visible action text cannot execute. The adapter retains thinking history for multi-turn training; raw sampled tokens and logprobs are archived unchanged.
 
-Framework YAML (`elt_framework_v1`) selects task specifications, model, warehouse, reward, training and evaluation settings. `evaluation.enabled` defaults to true. False skips initial, intermediate and final evaluation and is suitable for a one-update engineering example; both plan counts and interruption recovery honor it. Changing task/model/reward creates a fresh run. No historical checkpoint or quota inventory is needed to initialize a supported base model.
+Framework YAML (`elt_framework_v1`) selects task specifications, model, warehouse, reward, training and evaluation settings. `evaluation.enabled` defaults to true. False skips initial, intermediate and final evaluation and is suitable for a one-update engineering example; both plan counts and interruption recovery honor it. Changing task/model/reward creates a fresh run. A supported model can initialize directly from its base weights.
 
 ## Official metric aggregation
 
