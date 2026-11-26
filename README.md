@@ -20,6 +20,8 @@ An LLM agent inspects a task, writes extraction/loading configuration and dbt mo
 
 ![System architecture](docs/figures/architecture.png)
 
+[Editable SVG](docs/figures/architecture.svg) | [Vector PDF](docs/figures/architecture.pdf)
+
 Each rollout owns its workspace, source services, warehouse namespace and execution state. Native declarative loading replaces the original Airbyte Platform/Terraform interface. Original task data, target definitions and the pinned official evaluator are preserved. This is a **Docker-free adaptation**, with different loading tools and feedback from the original benchmark environment.
 
 ## Installation

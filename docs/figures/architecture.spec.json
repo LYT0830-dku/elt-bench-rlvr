@@ -1,0 +1,518 @@
+{
+  "canvas": {
+    "width": 1200,
+    "height": 700,
+    "background": "#FFFFFF"
+  },
+  "elements": [
+    {
+      "type": "polyline",
+      "points": [
+        [
+          650,
+          78
+        ],
+        [
+          650,
+          105
+        ]
+      ],
+      "color": "#718399",
+      "width": 2.2,
+      "arrow": true,
+      "start_arrow": false
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [
+          650,
+          175
+        ],
+        [
+          650,
+          213
+        ]
+      ],
+      "color": "#718399",
+      "width": 2.2,
+      "arrow": true,
+      "start_arrow": true
+    },
+    {
+      "type": "text",
+      "text": "Actions / observations",
+      "x": 678,
+      "y": 199,
+      "size": 18,
+      "bold": false,
+      "color": "#5B6C7E",
+      "align": "start",
+      "rotate": 0
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [
+          650,
+          423
+        ],
+        [
+          650,
+          446
+        ],
+        [
+          389,
+          446
+        ],
+        [
+          389,
+          468
+        ]
+      ],
+      "color": "#718399",
+      "width": 2.2,
+      "arrow": true,
+      "start_arrow": false
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [
+          650,
+          446
+        ],
+        [
+          911,
+          446
+        ],
+        [
+          911,
+          468
+        ]
+      ],
+      "color": "#718399",
+      "width": 2.2,
+      "arrow": true,
+      "start_arrow": false
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [
+          389,
+          540
+        ],
+        [
+          389,
+          584
+        ]
+      ],
+      "color": "#718399",
+      "width": 2.2,
+      "arrow": true,
+      "start_arrow": false
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [
+          911,
+          540
+        ],
+        [
+          911,
+          584
+        ]
+      ],
+      "color": "#718399",
+      "width": 2.2,
+      "arrow": true,
+      "start_arrow": false
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [
+          148,
+          630
+        ],
+        [
+          76,
+          630
+        ],
+        [
+          76,
+          140
+        ],
+        [
+          148,
+          140
+        ]
+      ],
+      "color": "#426F9E",
+      "width": 2.6,
+      "arrow": true,
+      "start_arrow": false
+    },
+    {
+      "type": "text",
+      "text": "Updated policy",
+      "x": 49,
+      "y": 393,
+      "size": 19,
+      "bold": false,
+      "color": "#426F9E",
+      "align": "middle",
+      "rotate": -90
+    },
+    {
+      "type": "rounded_rectangle",
+      "x": 148,
+      "y": 16,
+      "width": 1004,
+      "height": 62,
+      "fill": "#F8FAFC",
+      "stroke": "#D2DCE6",
+      "radius": 12
+    },
+    {
+      "type": "text",
+      "text": "Task and Model Configuration",
+      "x": 650,
+      "y": 43,
+      "size": 28,
+      "bold": true,
+      "color": "#172D46",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "text",
+      "text": "TaskSpec / ModelAdapter / Experiment YAML",
+      "x": 650,
+      "y": 65,
+      "size": 19,
+      "bold": false,
+      "color": "#5B6C7E",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "rounded_rectangle",
+      "x": 148,
+      "y": 105,
+      "width": 1004,
+      "height": 70,
+      "fill": "#EFF5FC",
+      "stroke": "#A7BED7",
+      "radius": 12
+    },
+    {
+      "type": "text",
+      "text": "LLM Agent",
+      "x": 650,
+      "y": 134,
+      "size": 29,
+      "bold": true,
+      "color": "#172D46",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "text",
+      "text": "Tinker sampling and structured tool calls",
+      "x": 650,
+      "y": 158,
+      "size": 20,
+      "bold": false,
+      "color": "#5B6C7E",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "rounded_rectangle",
+      "x": 148,
+      "y": 213,
+      "width": 1004,
+      "height": 210,
+      "fill": "#F7F9FC",
+      "stroke": "#B5C5D7",
+      "radius": 15
+    },
+    {
+      "type": "text",
+      "text": "Stateful ELT Environment",
+      "x": 174,
+      "y": 248,
+      "size": 29,
+      "bold": true,
+      "color": "#172D46",
+      "align": "start",
+      "rotate": 0
+    },
+    {
+      "type": "text",
+      "text": "Isolated workspace, source services and warehouse namespace",
+      "x": 174,
+      "y": 273,
+      "size": 19,
+      "bold": false,
+      "color": "#5B6C7E",
+      "align": "start",
+      "rotate": 0
+    },
+    {
+      "type": "rounded_rectangle",
+      "x": 170,
+      "y": 292,
+      "width": 464,
+      "height": 70,
+      "fill": "#FFFFFF",
+      "stroke": "#D2DCE6",
+      "radius": 9
+    },
+    {
+      "type": "text",
+      "text": "Extraction and Loading",
+      "x": 402,
+      "y": 322,
+      "size": 26,
+      "bold": true,
+      "color": "#172D46",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "text",
+      "text": "Native declarative executor",
+      "x": 402,
+      "y": 347,
+      "size": 19,
+      "bold": false,
+      "color": "#5B6C7E",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "rounded_rectangle",
+      "x": 664,
+      "y": 292,
+      "width": 466,
+      "height": 70,
+      "fill": "#FFFFFF",
+      "stroke": "#D2DCE6",
+      "radius": 9
+    },
+    {
+      "type": "text",
+      "text": "Transformation",
+      "x": 897,
+      "y": 322,
+      "size": 26,
+      "bold": true,
+      "color": "#172D46",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "text",
+      "text": "Model-authored dbt models and SQL",
+      "x": 897,
+      "y": 347,
+      "size": 19,
+      "bold": false,
+      "color": "#5B6C7E",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [
+          638,
+          327
+        ],
+        [
+          660,
+          327
+        ]
+      ],
+      "color": "#718399",
+      "width": 1.9,
+      "arrow": true,
+      "start_arrow": false
+    },
+    {
+      "type": "rounded_rectangle",
+      "x": 170,
+      "y": 380,
+      "width": 960,
+      "height": 28,
+      "fill": "#EAF0F6",
+      "stroke": "#EAF0F6",
+      "radius": 6
+    },
+    {
+      "type": "text",
+      "text": "Snowflake for official tasks  /  DuckDB for local integration",
+      "x": 650,
+      "y": 400,
+      "size": 18,
+      "bold": false,
+      "color": "#5B6C7E",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "rounded_rectangle",
+      "x": 148,
+      "y": 468,
+      "width": 482,
+      "height": 72,
+      "fill": "#EDF7F3",
+      "stroke": "#A3C8BB",
+      "radius": 12
+    },
+    {
+      "type": "text",
+      "text": "Pure Cell Reward",
+      "x": 389,
+      "y": 499,
+      "size": 27,
+      "bold": true,
+      "color": "#21715D",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "text",
+      "text": "Correct target cells / all target cells",
+      "x": 389,
+      "y": 524,
+      "size": 20,
+      "bold": false,
+      "color": "#21715D",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "rounded_rectangle",
+      "x": 670,
+      "y": 468,
+      "width": 482,
+      "height": 72,
+      "fill": "#F8FAFC",
+      "stroke": "#D2DCE6",
+      "radius": 12
+    },
+    {
+      "type": "text",
+      "text": "Official Evaluator",
+      "x": 911,
+      "y": 499,
+      "size": 27,
+      "bold": true,
+      "color": "#172D46",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "text",
+      "text": "SRDEL / SRDT",
+      "x": 911,
+      "y": 524,
+      "size": 20,
+      "bold": false,
+      "color": "#5B6C7E",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "rounded_rectangle",
+      "x": 148,
+      "y": 584,
+      "width": 482,
+      "height": 92,
+      "fill": "#EFF5FC",
+      "stroke": "#A7BED7",
+      "radius": 12
+    },
+    {
+      "type": "text",
+      "text": "Cookbook RL Optimization",
+      "x": 389,
+      "y": 615,
+      "size": 26,
+      "bold": true,
+      "color": "#172D46",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "text",
+      "text": "Advantage \u2192 importance_sampling \u2192 Adam",
+      "x": 389,
+      "y": 640,
+      "size": 18,
+      "bold": false,
+      "color": "#426F9E",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "text",
+      "text": "Checkpoint after each effective update",
+      "x": 389,
+      "y": 662,
+      "size": 18,
+      "bold": false,
+      "color": "#5B6C7E",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "rounded_rectangle",
+      "x": 670,
+      "y": 584,
+      "width": 482,
+      "height": 92,
+      "fill": "#F8FAFC",
+      "stroke": "#D2DCE6",
+      "radius": 12
+    },
+    {
+      "type": "text",
+      "text": "Independent Evaluation",
+      "x": 911,
+      "y": 615,
+      "size": 26,
+      "bold": true,
+      "color": "#172D46",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "text",
+      "text": "Metrics and pipeline success",
+      "x": 911,
+      "y": 641,
+      "size": 20,
+      "bold": false,
+      "color": "#5B6C7E",
+      "align": "middle",
+      "rotate": 0
+    },
+    {
+      "type": "text",
+      "text": "Excluded from gradient updates",
+      "x": 911,
+      "y": 663,
+      "size": 18,
+      "bold": false,
+      "color": "#5B6C7E",
+      "align": "middle",
+      "rotate": 0
+    }
+  ]
+}
